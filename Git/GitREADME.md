@@ -21,4 +21,12 @@ git pull (drar ned senaste uppdateringarna av GitKoden till din kod)
 
 git push (sparar din lokala förändringar till GitHub eller den online versionen)
 
+git branch (skapar en ny branch)
+
+git switch (byter till en annan branch)
+
+git checkout (annat sätt att byta branch på, uppdaterar huvud branchen?)
+
+git merge (lägger in de nya funktionerna från en branch till main eller en annan branch)
+
 GIT kan sparas på en egen server, GitHub, GitLab, BitBucket, Azure, AWS, Cloud m.m.
