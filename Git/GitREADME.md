@@ -30,3 +30,5 @@ git checkout (annat sätt att byta branch på, uppdaterar huvud branchen?)
 git merge (lägger in de nya funktionerna från en branch till main eller en annan branch)
 
 GIT kan sparas på en egen server, GitHub, GitLab, BitBucket, Azure, AWS, Cloud m.m.
+
+Rebase, Cherrypick, Gitflow, GitHub Actions - Värt att kolla på för mer avancerade delar och funktioner.
