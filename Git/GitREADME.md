@@ -15,7 +15,7 @@ git commit -m "text för commit" (sparar och lägger in filen i repo)
 
 git log (visar commits och vem som har genomför dem, konto, tid och namn)
 
-git clone _länk till repo_ (skapar en egen lokal version till din dator)
+git clone _länk till repo_ (skapar en egen lokal version till din dator, efter clone ska en länk som: [https:](https://github.com/MD-HV/HV-Projekt-Hotell-VV.git) existera)
 
 git pull (drar ned senaste uppdateringarna av GitKoden till din kod)
 
