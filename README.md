@@ -10,4 +10,4 @@ VV Projekt
 6. Klicka på merge & commit när koden och funktionerna är redo att implementeras i huvud branchen.
 7. Klicka eller vänta på att ändringen blir "pushad" och ändringen skickas till GitHub.
 
-Klicka på fork för att skapa en egen variant av GitHub koden.
+Det går även att klicka på fork för att skapa en egen variant av GitHub koden.
