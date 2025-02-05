@@ -15,7 +15,7 @@ git commit -m "text för commit" (sparar och lägger in filen i repo)
 
 git log (visar commits och vem som har genomför dem, konto, tid och namn)
 
-git clone (skapar en egen lokal version till din dator)
+git clone _länk till repo_ (skapar en egen lokal version till din dator)
 
 git pull (drar ned senaste uppdateringarna av GitKoden till din kod)
 
