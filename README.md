@@ -11,3 +11,5 @@ VV Projekt
 7. Klicka eller vänta på att ändringen blir "pushad" och ändringen skickas till GitHub.
 
 Det går även att klicka på fork för att skapa en egen variant av GitHub koden.
+
+För mer information om hur man använder eller installerar GIT, kolla under Git mappen.
