@@ -32,3 +32,6 @@ git merge (lägger in de nya funktionerna från en branch till main eller en ann
 GIT kan sparas på en egen server, GitHub, GitLab, BitBucket, Azure, AWS, Cloud m.m.
 
 Rebase, Cherrypick, Gitflow, GitHub Actions - Värt att kolla på för mer avancerade delar och funktioner.
+
+För att dölja filer med Git så går det att antingen ha det i en egen "branch" där man skapar filer som inte syns i "main/master" delen, eller så går det att lägga till specifika filer
+i en _.gitignore_ fil.
