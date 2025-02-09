@@ -33,5 +33,4 @@ GIT kan sparas på en egen server, GitHub, GitLab, BitBucket, Azure, AWS, Cloud 
 
 Rebase, Cherrypick, Gitflow, GitHub Actions - Värt att kolla på för mer avancerade delar och funktioner.
 
-För att dölja filer med Git så går det att antingen ha det i en egen "branch" där man skapar filer som inte syns i "main/master" delen, eller så går det att lägga till specifika filer
-i en _.gitignore_ fil.
+För att dölja filer med Git så går det att antingen ha det i en egen "branch" där man skapar filer som inte syns i "main/master" delen och om filerna ej sparas genom en "commit" så går det att gömma det även på det sättet, eller så går det att lägga till specifika filer i en _.gitignore_ fil.
