@@ -10,7 +10,7 @@
 2. Skapa konto till GitHub och logga in på GitHub (Desktop eller Webb).
 3. Clona HV-PROJEKT-HOTELL-VV, klicka på Code och sedan antingen genom att kopiera koden eller öppna i GitHub klienten.
 
-   För att skapa en ny _"repo"_ så går det annars att klicka på + tecknet på GitHub sidan eller skapa ny repository i GitHub/GitKraken programmet.
+   För att skapa en ny _"repo"_ så går det annars att klicka på + tecknet på GitHub sidan eller skapa ny repository i GitHub/GitKraken programmet under Fil.
    
 5. Skapa en branch genom att klicka på branch och sedan skapa ny (create branch)
 6. Börja koda och skapa nya funktioner.
