@@ -1,6 +1,6 @@
 # HV-Projekt-Hotell-VV
 
-###### VV Projekt
+#### VV Projekt
 
 1. Ladda ner Git och GitHub.
    GIT: https://git-scm.com/downloads & GitHub: https://desktop.github.com/download/ eller GitKraken https://www.gitkraken.com/
