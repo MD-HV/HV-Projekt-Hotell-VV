@@ -3,7 +3,9 @@
 ### _*Hur man börjar med Git och GitHub*_
 
 1. Ladda ner Git och GitHub.
+
    **GIT**: https://git-scm.com/downloads & **GitHub**: https://desktop.github.com/download/ eller **GitKraken** https://www.gitkraken.com/
+
 2. Skapa konto till GitHub och logga in på GitHub (Desktop eller Webb).
 3. Clona HV-PROJEKT-HOTELL-VV, klicka på Code och sedan antingen genom att kopiera koden eller öppna i GitHub klienten.
    För att skapa en ny _"repo"_ så går det annars att klicka på + tecknet på GitHub sidan eller skapa ny repository i programmen.
