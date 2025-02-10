@@ -1,8 +1,9 @@
 # HV-Projekt-Hotell-VV
 
-VV Projekt
+## VV Projekt
 
 1. Ladda ner Git och GitHub.
+   GIT: https://git-scm.com/downloads & GitHub: https://desktop.github.com/download/ eller GitKraken https://www.gitkraken.com/
 2. Skapa konto till GitHub och logga in på GitHub (Desktop eller Webb).
 3. Clona HV-PROJEKT-HOTELL-VV, leta efter detta projekt i appen/på webben.
 4. Skapa en branch genom att klicka på branch och sedan skapa ny (create branch)
