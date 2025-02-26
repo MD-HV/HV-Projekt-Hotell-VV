@@ -1,0 +1,11 @@
+git merge *branch* <-- lägger ihop nuvarande branch med *branch*.
+
+git merge abort <--- avbryter merge, bra vid conflicts om man inte vill genomföra uppdateringen.
+
+accept current <--- Sparar det som finns i main/nuvarande branch.
+
+accept incoming <--- Sparar över det i main med den nya ändringen på raderna som är ändrade.
+
+accept both <--- Spara båda ändringarna på egna rader.
+
+git add fil, eller git commit -a <-- Måste skrivas för att spara ändringarna efter accept delen.
