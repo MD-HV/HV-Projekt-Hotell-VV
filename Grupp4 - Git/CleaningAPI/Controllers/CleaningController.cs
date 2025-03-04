@@ -2,88 +2,67 @@
 
 namespace CleaningAPI.Controllers
 {
-    public class CleaningController : Controller
-    {
-        public IActionResult Index()
-        {
-            return View();
-        }
-    }
-    /* 
-    Referenser till tidigare kod för API, fixa problemen och ändra namnen till det som ska finnas i denna API!
-
 
     [Route("api/[controller]")]
     [ApiController]
-    public class DoodilyController : ControllerBase
+    public class CleaningController : ControllerBase
     {
         private readonly IHttpContextAccessor _contextAccessor;
-        private readonly APIDbContext _context;
+        private readonly CleaningDbContext _context;
 
-        private readonly ILogger<DoodilyController> _logger;
+        private readonly ILogger<CleaningController> _logger;
 
-        public DoodilyController(ILogger<DoodilyController> logger, APIDbContext context)
+        public CleaningController(ILogger<CleaningController> logger, CleaningDbContext context)
         {
             _logger = logger;
             _context = context;
         }
 
-        [HttpGet(Name = "Doodily")]
-        public IEnumerable<Song> Get()
+        [HttpGet(Name = "Cleaning")]
+        public IEnumerable<Task> Get()
         {
-            var songs = _context.Songs.ToList();
+            var Tasks = _context.Tasks.ToList();
 
-            return songs.ToList();
+            return Tasks.ToList();
         }
         [HttpPost]
-        [Route("AddSong")]
-        public string AddSong(Song songs)
+        [Route("AddTask")]
+        public string AddTask(Task Tasks)
         {
             string response = string.Empty;
-            _context.Songs.Add(songs);
+            _context.Tasks.Add(Tasks);
             _context.SaveChanges();
 
             return "Låt skapad";
         }
 
         [HttpPut]
-        [Route("UpdateSong")]
-        public string UpdateSong(Song songs)
+        [Route("UpdateTask")]
+        public string UpdateTask(Task Tasks)
         {
-            if (songs.Id != 0)
+            if (Tasks.Id != 0)
             {
-                _context.Songs.Update(songs);
+                _context.Tasks.Update(Tasks);
                 _context.SaveChanges();
                 return "Låt uppdaterad";
             }
             else
             {
-                return "Error, denna låt existerar EJ!";Eftersom ingen data hämtas så skickas ett meddelande iväg.
+                return "Error, denna låt existerar EJ!";
             }
-
-            
-             Om detta inte fungerar kan man testa:
-            _context.Entry(songs).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-            _context.SaveChanges();
              
         }
 
         [HttpDelete]
-        [Route("RemoveSong")]
-        public string RemoveSong(int songs)
+        [Route("RemoveTask")]
+        public string RemoveTask(int Tasks)
         {
-            var songsInDb = _context.Songs.SingleOrDefault(s => s.Id == songs);
+            var TasksInDb = _context.Tasks.SingleOrDefault(s => s.Id == Tasks);
 
-            _context.Songs.Remove(songsInDb);
+            _context.Tasks.Remove(TasksInDb);
             _context.SaveChanges();
             return "Låten har raderats";
-
-             Tror att detta är ganska overkill och kräver att all info om låten i databasen. 
-             * bytte från RemoveSong(Song songs) till RemoveSong(int songs)
-             * Om denna version ej fungerar så testar vi:
-             * _context.Songs.Remove(songs);
-             * _context.SaveChanges();
              
         }
-    }*/
+    }
 }

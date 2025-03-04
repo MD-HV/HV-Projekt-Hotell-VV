@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dwnTikUMHSQ=",
+  "dgSpecHash": "vfLHgeIzZPY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikon\\Desktop\\HV\\SOS100\\API\\CleaningProject\\CleaningAPI\\CleaningAPI.csproj",
+  "projectFilePath": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\CleaningAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikon\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
     "C:\\Users\\nikon\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.2\\microsoft.data.sqlite.core.9.0.2.nupkg.sha512",
