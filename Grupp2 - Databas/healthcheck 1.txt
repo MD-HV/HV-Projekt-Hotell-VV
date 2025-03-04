@@ -1,0 +1,81 @@
+Guide: Lägg till en Health Check i ert API
+För att vi ska kunna övervaka om ert API är uppe behöver ni lägga till en enkel health check i era API:er.
+
+Vad behöver ni göra?
+
+Lägg till följande kod i er API-controller:
+
+[HttpGet("health")]
+public IActionResult HealthCheck()
+{
+    return Ok(new { status = "API Running" });
+}
+
+Hur gör man detta?
+
+Öppna er API-controller
+Lägg till metoden ovan i controllern.
+Kör API:et och testa genom att gå till:
+
+https://localhost:7086/health
+
+Om det fungerar ska ni se:
+
+{
+  "status": "API Running"
+}
+
+
+För att vi ska kunna föra statistik över antal anrop till varje tjänst behöver ni även göra följande:
+
+Stycke som krävs i metoderna i Controllers: 
+        var logEntry = new ApiUsageLog
+        {
+            Endpoint = "/auth/login",
+            Timestamp = DateTime.UtcNow
+        };
+
+_context.ApiUsageLogs.Add(logEntry);
+await _context.SaveChangesAsync();
+
+Modell som krävs för logföring: 
+
+namespace LoginService.Models
+{
+    public class ApiUsageLog
+    {
+        public int Id { get; set; }
+        public string Endpoint { get; set; }
+        public DateTime Timestamp { get; set; }
+    }
+}
+
+Se till att modellen läggs till i databas! Säkerställ att ni har: "public DbSet<ApiUsageLog> ApiUsageLogs { get; set; }" i DbContext.
+
+
+Skapa en StatisticsController i api-projektet: 
+    public class StatisticsController : ControllerBase
+    {
+        private readonly LoginServiceDbContext _context;
+
+        public StatisticsController(LoginServiceDbContext context)
+        {
+            _context = context;
+        }
+
+        [HttpGet("usage")]
+        public IActionResult GetUsageStats()
+        {
+            var stats = _context.ApiUsageLogs
+                .GroupBy(log => log.Endpoint)
+                .Select(group => new
+                {
+                    Endpoint = group.Key,
+                    RequestCount = group.Count()
+                })
+                .OrderByDescending(x => x.RequestCount)
+                .ToList();
+
+            return Ok(stats);
+        }
+    }
