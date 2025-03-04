@@ -33,7 +33,7 @@ namespace CleaningAPI.Controllers
             _context.Tasks.Add(Tasks);
             _context.SaveChanges();
 
-            return "Låt skapad";
+            return "Task created";
         }
 
         [HttpPut]
@@ -44,13 +44,12 @@ namespace CleaningAPI.Controllers
             {
                 _context.Tasks.Update(Tasks);
                 _context.SaveChanges();
-                return "Låt uppdaterad";
+                return "Task updated.";
             }
             else
             {
-                return "Error, denna låt existerar EJ!";
+                return "Error, Task does not exist!";
             }
-             
         }
 
         [HttpDelete]
@@ -61,8 +60,12 @@ namespace CleaningAPI.Controllers
 
             _context.Tasks.Remove(TasksInDb);
             _context.SaveChanges();
-            return "Låten har raderats";
-             
+            return "Task Removed";
+        }
+        [HttpGet("health")]
+        public IActionResult HealthCheck()
+        {
+            return Ok(new { status = "API Running" });
         }
     }
 }
