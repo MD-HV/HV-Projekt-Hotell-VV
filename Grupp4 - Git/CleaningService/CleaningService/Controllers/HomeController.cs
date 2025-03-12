@@ -18,6 +18,11 @@ namespace CleaningService.Controllers
             return View();
         }
 
+        public IActionResult Clean()
+        {
+            return View();
+        }
+
         //----------------------------------------------------------------------------
 
         public async Task<IActionResult> fetchAPI()

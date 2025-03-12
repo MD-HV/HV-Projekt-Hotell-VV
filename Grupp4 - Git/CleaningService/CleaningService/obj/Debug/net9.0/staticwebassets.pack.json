@@ -13,6 +13,74 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\deluxe1.png",
+      "PackagePath": "staticwebassets\\images\\deluxe1.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\deluxe2.png",
+      "PackagePath": "staticwebassets\\images\\deluxe2.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\deluxe3.png",
+      "PackagePath": "staticwebassets\\images\\deluxe3.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\hotel.png",
+      "PackagePath": "staticwebassets\\images\\hotel.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\kok.png",
+      "PackagePath": "staticwebassets\\images\\kok.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\lobby.png",
+      "PackagePath": "staticwebassets\\images\\lobby.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\login.png",
+      "PackagePath": "staticwebassets\\images\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\parking.png",
+      "PackagePath": "staticwebassets\\images\\parking.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\restaurang.png",
+      "PackagePath": "staticwebassets\\images\\restaurang.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\spa.png",
+      "PackagePath": "staticwebassets\\images\\spa.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\standard1.png",
+      "PackagePath": "staticwebassets\\images\\standard1.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\standard2.png",
+      "PackagePath": "staticwebassets\\images\\standard2.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\standard3.png",
+      "PackagePath": "staticwebassets\\images\\standard3.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\suite1.png",
+      "PackagePath": "staticwebassets\\images\\suite1.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\suite2.png",
+      "PackagePath": "staticwebassets\\images\\suite2.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\images\\suite3.png",
+      "PackagePath": "staticwebassets\\images\\suite3.png"
+    },
+    {
       "Id": "C:\\Users\\andre\\source\\repos\\CleaningService\\CleaningService\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
