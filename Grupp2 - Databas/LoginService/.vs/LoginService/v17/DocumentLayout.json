@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F63F2F2B-3F3C-4F52-A122-D7045433A2DC}|LoginService\\LoginService.csproj|c:\\users\\albin\\onedrive\\skrivbord\\loginservice\\loginservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F63F2F2B-3F3C-4F52-A122-D7045433A2DC}|LoginService\\LoginService.csproj|solutionrelative:loginservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63F2F2B-3F3C-4F52-A122-D7045433A2DC}|LoginService\\LoginService.csproj|c:\\users\\albin\\onedrive\\skrivbord\\loginservice\\loginservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63F2F2B-3F3C-4F52-A122-D7045433A2DC}|LoginService\\LoginService.csproj|solutionrelative:loginservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63F2F2B-3F3C-4F52-A122-D7045433A2DC}|LoginService\\LoginService.csproj|c:\\users\\albin\\onedrive\\skrivbord\\loginservice\\loginservice\\data\\loginservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63F2F2B-3F3C-4F52-A122-D7045433A2DC}|LoginService\\LoginService.csproj|solutionrelative:loginservice\\data\\loginservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63F2F2B-3F3C-4F52-A122-D7045433A2DC}|LoginService\\LoginService.csproj|c:\\users\\albin\\onedrive\\skrivbord\\loginservice\\loginservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63F2F2B-3F3C-4F52-A122-D7045433A2DC}|LoginService\\LoginService.csproj|solutionrelative:loginservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63F2F2B-3F3C-4F52-A122-D7045433A2DC}|LoginService\\LoginService.csproj|c:\\users\\albin\\onedrive\\skrivbord\\loginservice\\loginservice\\models\\apiusagelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63F2F2B-3F3C-4F52-A122-D7045433A2DC}|LoginService\\LoginService.csproj|solutionrelative:loginservice\\models\\apiusagelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F63F2F2B-3F3C-4F52-A122-D7045433A2DC}|LoginService\\LoginService.csproj|c:\\users\\albin\\onedrive\\skrivbord\\loginservice\\loginservice\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F63F2F2B-3F3C-4F52-A122-D7045433A2DC}|LoginService\\LoginService.csproj|solutionrelative:loginservice\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\appsettings.json",
+              "RelativeDocumentMoniker": "LoginService\\appsettings.json",
+              "ToolTip": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\appsettings.json",
+              "RelativeToolTip": "LoginService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T09:05:30.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\Program.cs",
+              "RelativeDocumentMoniker": "LoginService\\Program.cs",
+              "ToolTip": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\Program.cs",
+              "RelativeToolTip": "LoginService\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T09:10:53.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiUsageLog.cs",
+              "DocumentMoniker": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\Models\\ApiUsageLog.cs",
+              "RelativeDocumentMoniker": "LoginService\\Models\\ApiUsageLog.cs",
+              "ToolTip": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\Models\\ApiUsageLog.cs",
+              "RelativeToolTip": "LoginService\\Models\\ApiUsageLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T11:24:22.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LoginService\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LoginService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAMwNYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T11:24:06.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\Controllers\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "LoginService\\Controllers\\StatisticsController.cs",
+              "ToolTip": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\Controllers\\StatisticsController.cs",
+              "RelativeToolTip": "LoginService\\Controllers\\StatisticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T11:24:08.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginServiceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\Data\\LoginServiceDbContext.cs",
+              "RelativeDocumentMoniker": "LoginService\\Data\\LoginServiceDbContext.cs",
+              "ToolTip": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\Data\\LoginServiceDbContext.cs",
+              "RelativeToolTip": "LoginService\\Data\\LoginServiceDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T11:24:15.815Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

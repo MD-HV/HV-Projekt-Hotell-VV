@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "MmMoFGtdY84mKziwMHGRhrbikYLihHCI3nsNV9s/XAw=",
+  "Source": "LoginService",
+  "BasePath": "_content/LoginService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
