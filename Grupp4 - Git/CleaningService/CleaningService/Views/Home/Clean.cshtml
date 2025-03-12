@@ -3,12 +3,11 @@
     @if (Model == null || Model.Count == 0) {
         <tr><p>No Task found</p></tr>
     }else{
-            <div class="row">
+        <div class="rowmain">
                 @foreach (var t in Model)
                 {
                 <div class="rowtest">
-                    <tr>
-                        <div class="card shadow-sm">
+                        <div class="card card-top shadow-sm">
                             <div class="card-header bg-primary text-white">
                                 <h2 class="mb-0">Rum: @t.RoomId</h2>
                             </div>

@@ -696,22 +696,31 @@ footer {
     margin-top: 5%;
 }
 .rowtest {
-    display: flex;
-    align-self: auto;
-    justify-self: auto;
+    display: inherit;
     text-align: left;
-    text-decoration: none;
     list-style: none;
-    background: var(--secondary-color);
-   }
+    padding: 0;
+    margin: 7px;
+}
     .rowtest ul {
         text-decoration: none;
         list-style: none;
-        background: var(--secondary-color);
     }
     .rowtest li {
         text-align: left;
         list-style: none;
         text-decoration: none;
-        background: var(--secondary-color);
+        
     }
+.card-body {
+    
+}
+.card-top {
+    background-color: #D9D6CE;
+    border: #000 solid 1px;
+}
+.rowmain {
+    display: flex;
+    flex-grow: inherit;
+    flex-wrap: wrap;
+}

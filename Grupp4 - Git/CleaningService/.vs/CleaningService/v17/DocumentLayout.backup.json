@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,6 +61,10 @@
               "Name": "ST:1488836474:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1124394973:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "HomeController.cs",
@@ -68,7 +72,7 @@
               "RelativeDocumentMoniker": "CleaningService\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CleaningService\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCgAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T11:59:25.773Z",
               "EditorCaption": ""
@@ -107,7 +111,7 @@
               "RelativeDocumentMoniker": "CleaningService\\Views\\Home\\Clean.cshtml",
               "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Views\\Home\\Clean.cshtml",
               "RelativeToolTip": "CleaningService\\Views\\Home\\Clean.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-12T09:13:51.559Z",
               "EditorCaption": ""
@@ -133,7 +137,7 @@
               "RelativeDocumentMoniker": "CleaningService\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\css\\site.css",
               "RelativeToolTip": "CleaningService\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAKwCAAAAAAAAAAAcwMsCAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAMACAAAAAAAAAAAAAM8CAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-03-04T12:04:49.704Z",
               "EditorCaption": ""
