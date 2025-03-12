@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\albin\\OneDrive\\Skrivbord\\MonitoringService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19DBFAF4-38FA-4312-8D42-26A918626417}|MonitoringService\\MonitoringService.csproj|c:\\users\\albin\\onedrive\\skrivbord\\monitoringservice\\monitoringservice\\controllers\\monitoringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19DBFAF4-38FA-4312-8D42-26A918626417}|MonitoringService\\MonitoringService.csproj|solutionrelative:monitoringservice\\controllers\\monitoringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DBFAF4-38FA-4312-8D42-26A918626417}|MonitoringService\\MonitoringService.csproj|c:\\users\\albin\\onedrive\\skrivbord\\monitoringservice\\monitoringservice\\models\\apistat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19DBFAF4-38FA-4312-8D42-26A918626417}|MonitoringService\\MonitoringService.csproj|solutionrelative:monitoringservice\\models\\apistat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MonitoringController.cs",
+              "DocumentMoniker": "C:\\Users\\albin\\OneDrive\\Skrivbord\\MonitoringService\\MonitoringService\\Controllers\\MonitoringController.cs",
+              "RelativeDocumentMoniker": "MonitoringService\\Controllers\\MonitoringController.cs",
+              "ToolTip": "C:\\Users\\albin\\OneDrive\\Skrivbord\\MonitoringService\\MonitoringService\\Controllers\\MonitoringController.cs",
+              "RelativeToolTip": "MonitoringService\\Controllers\\MonitoringController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowF4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T11:25:05.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiStat.cs",
+              "DocumentMoniker": "C:\\Users\\albin\\OneDrive\\Skrivbord\\MonitoringService\\MonitoringService\\Models\\ApiStat.cs",
+              "RelativeDocumentMoniker": "MonitoringService\\Models\\ApiStat.cs",
+              "ToolTip": "C:\\Users\\albin\\OneDrive\\Skrivbord\\MonitoringService\\MonitoringService\\Models\\ApiStat.cs",
+              "RelativeToolTip": "MonitoringService\\Models\\ApiStat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T10:12:00.595Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

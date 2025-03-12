@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Logga in";
+}
+
+<h2>Logga in</h2>
+
+<form method="post" action="/Account/Login">
+    <div class="mb-3">
+        <label for="username" class="form-label">Användarnamn</label>
+        <input type="text" class="form-control" id="username" name="Username" required/>
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label"></label>
+        <input type="password" class="form-control" id="password" name="Password"/>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Logga in</button>
+</form>
+
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger mt-3">@ViewBag.ErrorMessage</div>
+}

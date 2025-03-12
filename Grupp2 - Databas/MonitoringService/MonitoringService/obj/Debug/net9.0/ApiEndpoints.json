@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "MonitoringService.Controllers.MonitoringController",
+    "Method": "CheckLoginApiHealth",
+    "RelativePath": "api/monitoring/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MonitoringService.Controllers.MonitoringController",
+    "Method": "GetApiStatistics",
+    "RelativePath": "api/monitoring/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

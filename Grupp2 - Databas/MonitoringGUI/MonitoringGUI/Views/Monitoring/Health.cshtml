@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "API Status";
+}
+
+<h2>API Status</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>API</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (ViewBag.ApiStatuses != null)
+        {
+            foreach (var api in ViewBag.ApiStatuses as Dictionary<string, string>)
+            {
+                <tr>
+                    <td>@api.Key</td>
+                    <td class="@(api.Value == "Running" ? "text-success" : "text-danger")">
+                        @(api.Value == "Running" ? "Running" : "Down")
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="2">Ingen status tillgänglig.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form method="get" action="/Monitoring/Health">
+    <button type="submit" class="btn btn-primary">Skicka ny förfrågan</button>
+</form>
