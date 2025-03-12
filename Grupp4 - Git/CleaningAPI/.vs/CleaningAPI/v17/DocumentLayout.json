@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:controllers\\cleaningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\cleaningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:cleaningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\cleaningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:cleaningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,6 +49,23 @@
               "Name": "ST:1488836474:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1124394973:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T11:06:17.334Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CleaningController.cs",
@@ -52,7 +73,7 @@
               "RelativeDocumentMoniker": "Controllers\\CleaningController.cs",
               "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\Controllers\\CleaningController.cs",
               "RelativeToolTip": "Controllers\\CleaningController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T09:36:17.288Z",
               "EditorCaption": ""
@@ -65,13 +86,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T09:26:32.564Z"
+              "WhenOpened": "2025-03-03T09:26:32.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\Task.cs",
               "RelativeDocumentMoniker": "Task.cs",
@@ -79,11 +101,12 @@
               "RelativeToolTip": "Task.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T09:25:10.501Z"
+              "WhenOpened": "2025-03-03T09:25:10.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CleaningDbContext.cs",
               "DocumentMoniker": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\CleaningDbContext.cs",
               "RelativeDocumentMoniker": "CleaningDbContext.cs",
@@ -91,7 +114,8 @@
               "RelativeToolTip": "CleaningDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T09:23:09.632Z"
+              "WhenOpened": "2025-03-03T09:23:09.632Z",
+              "EditorCaption": ""
             }
           ]
         }

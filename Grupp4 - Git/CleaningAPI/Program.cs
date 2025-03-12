@@ -9,9 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+builder.Services.AddDbContext<CleaningDbContext>(opt => opt.UseSqlite("Data Source=CleaningAPI.db")); //Bör ändras om vi ska köra vanliga SQLservrar!
 
 var app = builder.Build();
-builder.Services.AddDbContext<CleaningDbContext>(opt => opt.UseSqlite("Data Source=CleaningAPI.db")); //Bör ändras om vi ska köra vanliga SQLservrar!
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

@@ -1,12 +1,15 @@
 using System.Diagnostics;
 using CleaningService.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 
 namespace CleaningService.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly CleaningDbContext _context;
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -18,14 +21,14 @@ namespace CleaningService.Controllers
             return View();
         }
 
-        public IActionResult Clean()
+        public IActionResult asdClean()
         {
             return View();
         }
 
         //----------------------------------------------------------------------------
 
-        public async Task<IActionResult> fetchAPI()
+        public async Task<IActionResult> Clean()
         {
             List<CleaningAPI>? tasksAPI = null;
 
@@ -35,7 +38,7 @@ namespace CleaningService.Controllers
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri("https://localhost:"),
+                RequestUri = new Uri("https://localhost:7108/api/Cleaning"),
             };
 
             try

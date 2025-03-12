@@ -690,3 +690,28 @@ footer {
             justify-content: center;
         }
 }
+
+.cleantable {
+    display:flex;
+    margin-top: 5%;
+}
+.rowtest {
+    display: flex;
+    align-self: auto;
+    justify-self: auto;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    background: var(--secondary-color);
+   }
+    .rowtest ul {
+        text-decoration: none;
+        list-style: none;
+        background: var(--secondary-color);
+    }
+    .rowtest li {
+        text-align: left;
+        list-style: none;
+        text-decoration: none;
+        background: var(--secondary-color);
+    }
