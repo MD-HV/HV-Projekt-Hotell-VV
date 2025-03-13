@@ -1,0 +1,13 @@
+Sida som ger möjligheter för inloggning, visning av städnings uppdrag/arbeten som är aktiva samt klara, ge en översikt över de olika rummen som finns, samt de rum som behöver städas.
+
+Följ ramverket som de andra sidorna antagligen kommer ha, skapa en API som sparar städarbetes information som smutsiga rum/städade rum/aktiva och kompletta städ job. följ informationen som ska finnas enligt den kanoniska modellen! 
+
+Data som ska finnas i APIn:
+Attribut:
+TaskID (int)
+RoomID (int)
+AssignedStaffID (int) ← bör ändras till UserID
+IsCleaningOngoing (bool) 
+ReportedDamages (String)
+
+Behöver "RoomID" koppling, osäker på hur man fixar med det...

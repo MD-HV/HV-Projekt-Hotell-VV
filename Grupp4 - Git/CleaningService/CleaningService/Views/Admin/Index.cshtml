@@ -1,0 +1,16 @@
+﻿<div class="logindiv">
+
+    @if (ViewBag.ErrorMessage != null) {
+        <p>@ViewBag.ErrorMessage</p>
+    }
+
+    <form asp-action="Index" method="post">
+        <label>Användarnamn</label>
+        <input type="text" id="username" name="username" required /><br />
+
+        <label>Lösenord</label>
+        <input type="password" id="password" name="password" required /><br />
+
+        <input type="submit" value="Logga in" />
+    </form>
+</div>
