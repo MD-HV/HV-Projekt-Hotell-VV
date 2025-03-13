@@ -1,15 +1,21 @@
 using CleaningAPI;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
+using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
+
+string connString = builder.Configuration.GetConnectionString("LocalConnection");
 
 // Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services.AddDbContext<CleaningDbContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("LocalConnection"))); //B�r �ndras om vi ska k�ra vanliga SQLservrar! UseSqlite("Data Source=CleaningAPI.db") <--SQL Local = SQL server localt, Default = Jan-olofs log in på sin server
+builder.Services.AddDbContext<CleaningDbContext>(opt =>
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("LocalConnection"));
+}); //B�r �ndras om vi ska k�ra vanliga SQLservrar! UseSqlite("Data Source=CleaningAPI.db") <--SQL Local = SQL server localt, Default = Jan-olofs log in på sin server
 
 var app = builder.Build();
 
