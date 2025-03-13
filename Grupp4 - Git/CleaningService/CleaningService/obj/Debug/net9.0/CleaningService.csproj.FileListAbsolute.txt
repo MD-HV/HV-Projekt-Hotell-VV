@@ -389,4 +389,4 @@ C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\Clean
 C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\CleaningService.pdb
 C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\CleaningService.genruntimeconfig.cache
 C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\ref\CleaningService.dll
-C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\i2yju4kshp-k7wo0qkls7.gz
+C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\i2yju4kshp-vgj9gnnryb.gz

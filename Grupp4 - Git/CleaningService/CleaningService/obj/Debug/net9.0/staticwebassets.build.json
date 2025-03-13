@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2lRx1/zxbxJ2PFGJLYDwzuRR5tcGe0t1SzvsyG7uqxQ=",
+  "Hash": "i6PAzpS3Vz1HQcxunUKlkcohZ8CVCuesq4JSC2UsIC8=",
   "Source": "CleaningService",
   "BasePath": "_content/CleaningService",
   "Mode": "Default",
@@ -710,12 +710,12 @@
       "OriginalItemSpec": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-k7wo0qkls7.gz",
+      "Identity": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-vgj9gnnryb.gz",
       "SourceId": "CleaningService",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CleaningService",
-      "RelativePath": "css/site#[.{fingerprint=k7wo0qkls7}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=vgj9gnnryb}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -724,8 +724,8 @@
       "RelatedAsset": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xd4hzp7j1u",
-      "Integrity": "dWcIQFwXTRVffeSrhGmSTEXOcHBhoOGjdN/uT3f0PNc=",
+      "Fingerprint": "6mi5x3u2ck",
+      "Integrity": "fvqNQXrY4VFPDzx+2a4SMasvMc2uNGYjOopFztdS9vg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "k7wo0qkls7",
-      "Integrity": "8B7ZDhiNVnfZ+zfAhvVQa8yplabGVnG8mNkwHSFECKg=",
+      "Fingerprint": "vgj9gnnryb",
+      "Integrity": "z8buKKwVwrRcfKyFybSN4Vej3fq59WLjHJZ4dhDBulw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3682,12 +3682,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-k7wo0qkls7.gz",
+      "AssetFile": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-vgj9gnnryb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000347705146"
+          "Quality": "0.000347584289"
         }
       ],
       "ResponseHeaders": [
@@ -3697,15 +3697,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2875"
+          "Value": "2876"
         },
         {
           "Name": "ETag",
-          "Value": "\"dWcIQFwXTRVffeSrhGmSTEXOcHBhoOGjdN/uT3f0PNc=\""
+          "Value": "\"fvqNQXrY4VFPDzx+2a4SMasvMc2uNGYjOopFztdS9vg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 12:39:32 GMT"
+          "Value": "Thu, 13 Mar 2025 09:31:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3725,13 +3725,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8B7ZDhiNVnfZ+zfAhvVQa8yplabGVnG8mNkwHSFECKg=\""
+          "Value": "W/\"z8buKKwVwrRcfKyFybSN4Vej3fq59WLjHJZ4dhDBulw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8B7ZDhiNVnfZ+zfAhvVQa8yplabGVnG8mNkwHSFECKg="
+          "Value": "sha256-z8buKKwVwrRcfKyFybSN4Vej3fq59WLjHJZ4dhDBulw="
         }
       ]
     },
@@ -3746,7 +3746,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13574"
+          "Value": "13604"
         },
         {
           "Name": "Content-Type",
@@ -3754,11 +3754,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8B7ZDhiNVnfZ+zfAhvVQa8yplabGVnG8mNkwHSFECKg=\""
+          "Value": "\"z8buKKwVwrRcfKyFybSN4Vej3fq59WLjHJZ4dhDBulw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 12:39:32 GMT"
+          "Value": "Thu, 13 Mar 2025 09:31:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3768,13 +3768,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8B7ZDhiNVnfZ+zfAhvVQa8yplabGVnG8mNkwHSFECKg="
+          "Value": "sha256-z8buKKwVwrRcfKyFybSN4Vej3fq59WLjHJZ4dhDBulw="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-k7wo0qkls7.gz",
+      "AssetFile": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-vgj9gnnryb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3783,7 +3783,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2875"
+          "Value": "2876"
         },
         {
           "Name": "Content-Type",
@@ -3791,11 +3791,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dWcIQFwXTRVffeSrhGmSTEXOcHBhoOGjdN/uT3f0PNc=\""
+          "Value": "\"fvqNQXrY4VFPDzx+2a4SMasvMc2uNGYjOopFztdS9vg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 12:39:32 GMT"
+          "Value": "Thu, 13 Mar 2025 09:31:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3813,18 +3813,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dWcIQFwXTRVffeSrhGmSTEXOcHBhoOGjdN/uT3f0PNc="
+          "Value": "sha256-fvqNQXrY4VFPDzx+2a4SMasvMc2uNGYjOopFztdS9vg="
         }
       ]
     },
     {
-      "Route": "css/site.k7wo0qkls7.css",
-      "AssetFile": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-k7wo0qkls7.gz",
+      "Route": "css/site.vgj9gnnryb.css",
+      "AssetFile": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-vgj9gnnryb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000347705146"
+          "Quality": "0.000347584289"
         }
       ],
       "ResponseHeaders": [
@@ -3834,15 +3834,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2875"
+          "Value": "2876"
         },
         {
           "Name": "ETag",
-          "Value": "\"dWcIQFwXTRVffeSrhGmSTEXOcHBhoOGjdN/uT3f0PNc=\""
+          "Value": "\"fvqNQXrY4VFPDzx+2a4SMasvMc2uNGYjOopFztdS9vg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 12:39:32 GMT"
+          "Value": "Thu, 13 Mar 2025 09:31:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3862,13 +3862,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8B7ZDhiNVnfZ+zfAhvVQa8yplabGVnG8mNkwHSFECKg=\""
+          "Value": "W/\"z8buKKwVwrRcfKyFybSN4Vej3fq59WLjHJZ4dhDBulw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "k7wo0qkls7"
+          "Value": "vgj9gnnryb"
         },
         {
           "Name": "label",
@@ -3876,12 +3876,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8B7ZDhiNVnfZ+zfAhvVQa8yplabGVnG8mNkwHSFECKg="
+          "Value": "sha256-z8buKKwVwrRcfKyFybSN4Vej3fq59WLjHJZ4dhDBulw="
         }
       ]
     },
     {
-      "Route": "css/site.k7wo0qkls7.css",
+      "Route": "css/site.vgj9gnnryb.css",
       "AssetFile": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3891,7 +3891,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13574"
+          "Value": "13604"
         },
         {
           "Name": "Content-Type",
@@ -3899,11 +3899,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8B7ZDhiNVnfZ+zfAhvVQa8yplabGVnG8mNkwHSFECKg=\""
+          "Value": "\"z8buKKwVwrRcfKyFybSN4Vej3fq59WLjHJZ4dhDBulw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 12:39:32 GMT"
+          "Value": "Thu, 13 Mar 2025 09:31:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3913,7 +3913,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "k7wo0qkls7"
+          "Value": "vgj9gnnryb"
         },
         {
           "Name": "label",
@@ -3921,13 +3921,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8B7ZDhiNVnfZ+zfAhvVQa8yplabGVnG8mNkwHSFECKg="
+          "Value": "sha256-z8buKKwVwrRcfKyFybSN4Vej3fq59WLjHJZ4dhDBulw="
         }
       ]
     },
     {
-      "Route": "css/site.k7wo0qkls7.css.gz",
-      "AssetFile": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-k7wo0qkls7.gz",
+      "Route": "css/site.vgj9gnnryb.css.gz",
+      "AssetFile": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-vgj9gnnryb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3936,7 +3936,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2875"
+          "Value": "2876"
         },
         {
           "Name": "Content-Type",
@@ -3944,11 +3944,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dWcIQFwXTRVffeSrhGmSTEXOcHBhoOGjdN/uT3f0PNc=\""
+          "Value": "\"fvqNQXrY4VFPDzx+2a4SMasvMc2uNGYjOopFztdS9vg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 12:39:32 GMT"
+          "Value": "Thu, 13 Mar 2025 09:31:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3966,7 +3966,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "k7wo0qkls7"
+          "Value": "vgj9gnnryb"
         },
         {
           "Name": "label",
@@ -3974,7 +3974,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dWcIQFwXTRVffeSrhGmSTEXOcHBhoOGjdN/uT3f0PNc="
+          "Value": "sha256-fvqNQXrY4VFPDzx+2a4SMasvMc2uNGYjOopFztdS9vg="
         }
       ]
     },
