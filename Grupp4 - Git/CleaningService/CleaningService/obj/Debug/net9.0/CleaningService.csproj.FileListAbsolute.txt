@@ -508,7 +508,6 @@ C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningSer
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\scopedcss\bundle\CleaningService.styles.css
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\scopedcss\projectbundle\CleaningService.bundle.scp.css
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\bds8hfeinj-61n19gt1b8.gz
-C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\5s7vpacj8k-xtxxf3hu2r.gz
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\5lystwkg01-bqjiyaj88i.gz
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\csrfvbnm36-c2jlpeoesf.gz
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\7t33wnnf5m-erw9l3u2r3.gz
@@ -586,4 +585,5 @@ C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningSer
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\CleaningService.pdb
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\CleaningService.genruntimeconfig.cache
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\ref\CleaningService.dll
-C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\i2yju4kshp-f82vgxoym3.gz
+C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\5s7vpacj8k-yv8yppu31o.gz
+C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\i2yju4kshp-hx90xjyvzq.gz

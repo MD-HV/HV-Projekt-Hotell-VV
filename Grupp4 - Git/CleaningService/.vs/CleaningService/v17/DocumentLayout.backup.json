@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\views\\home\\clean.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\views\\home\\clean.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\models\\cleaningapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,18 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\models\\cleaningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\models\\cleaningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningservice\\cleaningservice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F256295D-D9BC-4F61-89C5-418F4A2BF684}|CleaningService\\CleaningService.csproj|solutionrelative:cleaningservice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,43 +78,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CleaningService\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CleaningService\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADgvxwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:43:33.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CleaningService\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CleaningService\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAgAAAAAHjMzMzPrvxkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T11:58:28.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CleaningService\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CleaningService\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAEMAAABAAQAAAIATwFcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-04T12:04:49.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Program.cs",
+              "RelativeDocumentMoniker": "CleaningService\\Program.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Program.cs",
+              "RelativeToolTip": "CleaningService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:52:48.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "CleaningService\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "CleaningService\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T10:47:11.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CleaningService\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CleaningService\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T11:55:01.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CleaningService\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CleaningService\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAACgZWZmZmY8wBsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T11:59:25.773Z"
+              "WhenOpened": "2025-03-04T11:59:25.773Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CleaningDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Models\\CleaningDbContext.cs",
-              "RelativeDocumentMoniker": "CleaningService\\Models\\CleaningDbContext.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Models\\CleaningDbContext.cs",
-              "RelativeToolTip": "CleaningService\\Models\\CleaningDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T11:28:53.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Models\\Task.cs",
-              "RelativeDocumentMoniker": "CleaningService\\Models\\Task.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Models\\Task.cs",
-              "RelativeToolTip": "CleaningService\\Models\\Task.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T11:30:53.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Clean.cshtml",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Views\\Home\\Clean.cshtml",
               "RelativeDocumentMoniker": "CleaningService\\Views\\Home\\Clean.cshtml",
@@ -111,7 +182,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "CleaningService\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "CleaningService\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-13T11:13:32.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "CleaningService\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Models\\Task.cs",
+              "RelativeToolTip": "CleaningService\\Models\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:30:53.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CleaningDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Models\\CleaningDbContext.cs",
+              "RelativeDocumentMoniker": "CleaningService\\Models\\CleaningDbContext.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Models\\CleaningDbContext.cs",
+              "RelativeToolTip": "CleaningService\\Models\\CleaningDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:28:53.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CleaningAPI.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Models\\CleaningAPI.cs",
               "RelativeDocumentMoniker": "CleaningService\\Models\\CleaningAPI.cs",
@@ -120,43 +228,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T12:06:40.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "CleaningService\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "CleaningService\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAKsCAAAAZ2ZmZuYcwLoCAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-04T12:04:49.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CleaningService\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CleaningService\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAUAAACgMzMzMzMrwBwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T11:58:28.818Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CleaningService\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CleaningService\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T11:55:01.053Z"
             }
           ]
         }

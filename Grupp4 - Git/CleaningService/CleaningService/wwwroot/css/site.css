@@ -83,10 +83,15 @@ nav {
     margin-right: 20px;
 }
 
+.login-icon {
+    max-height: 30px;
+    max-width: 30px;
+}
+
     .login-btn img {
         width: 30px;
         height: auto;
-        border-radius: 50%
+        border-radius: 50%;
     }
 
     .login-btn:hover {
@@ -730,4 +735,10 @@ footer {
     display: flex;
     flex-grow: inherit;
     flex-wrap: wrap;
+}
+
+.logindiv {
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
 }

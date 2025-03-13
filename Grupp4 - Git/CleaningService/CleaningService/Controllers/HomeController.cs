@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 using System.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CleaningService.Controllers
 {
@@ -22,13 +23,9 @@ namespace CleaningService.Controllers
             return View();
         }
 
-        public IActionResult asdClean()
-        {
-            return View();
-        }
-
         //----------------------------------------------------------------------------
 
+        [Authorize]
         public async Task<IActionResult> Clean()
         {
             List<CleaningAPI>? tasksAPI = null;
