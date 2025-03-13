@@ -1,0 +1,3 @@
+"DefaultConnection": "Server=193.10.202.70;Database=CleaningDB;User ID=sa;Password=TSB100sql;MultipleActiveResultSets=true",
+
+VET INTE HUR MAN SKA GÖRA EN TEST SERVER...
