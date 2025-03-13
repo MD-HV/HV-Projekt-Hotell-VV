@@ -5,7 +5,7 @@ using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
-string connString = builder.Configuration.GetConnectionString("LocalConnection");
+string connString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 // Add services to the container.
 
@@ -14,7 +14,7 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddDbContext<CleaningDbContext>(opt =>
 {
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("LocalConnection"));
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string not found!"));
 }); //B�r �ndras om vi ska k�ra vanliga SQLservrar! UseSqlite("Data Source=CleaningAPI.db") <--SQL Local = SQL server localt, Default = Jan-olofs log in på sin server
 
 var app = builder.Build();
