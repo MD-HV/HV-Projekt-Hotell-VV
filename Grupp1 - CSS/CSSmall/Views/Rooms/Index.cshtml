@@ -1,0 +1,268 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Boka rum";
+}
+<body>
+<section class="room-search">
+    <div class="search-container">
+        <div class="search-field">
+            <label>Checka in</label>
+            <input type="date">
+        </div>
+        <div class="search-field">
+            <label>Checka ut</label>
+            <input type="date">
+        </div>
+        <div class="search-field">
+            <label>Gäster</label>
+            <select>
+                <option>1 vuxen, 1 rum</option>
+                <option>2 vuxna, 1 rum</option>
+                <option>Familj, 2 rum</option>
+            </select>
+        </div>
+        <button class="search-button">Sök</button>
+    </div>
+</section>
+
+    <section class="hotel-images">
+        <div class="main-image">
+            <img src="~/images/hotel.png" alt="Hotell">
+        </div>
+        <div class="small-images">
+            <img src="~/images/Standard/standard1.png" alt="Hotellbild 1">
+            <img src="~/images/Deluxe/deluxe1.png" alt="Hotellbild 2">
+            <img src="~/images/Suite/suite1.png" alt="Hotellbild 3">
+            <img src="~/images/spa.png" alt="Hotellbild 4">
+        </div>
+    </section>
+
+
+    <div class="room-tabs">
+        <ul class="tab-list">
+            <li class="tab-item active" onclick="showTab(event, 'about-hotel')">Om hotellet</li>
+            <li class="tab-item" onclick="showTab(event, 'room-options')">Olika rum</li>
+            <li class="tab-item" onclick="showTab(event, 'food')">Mat & Dryck</li>
+            <li class="tab-item" onclick="showTab(event, 'info')">Bra att veta</li>
+            <li class="tab-item" onclick="showTab(event, 'events')">Event</li>
+        </ul>
+    </div>
+
+    <!-- Sektioner för varje tabb -->
+    <div id="about-hotel" class="tab-content active">
+        <h3>En exklusiv hotellupplevelse</h3>
+        <p>
+            Välkommen till vårt hotell, där elegans möter komfort. Vi erbjuder en unik vistelseupplevelse där varje detalj är
+            noggrant utvald för att skapa en harmonisk atmosfär. Njut av förstklassiga bekvämligheter som vårt exklusiva spa
+            med uppvärmd pool, jacuzzi och bastu.
+        </p>
+        <p>
+            Vår restaurang serverar kulinariska rätter skapade av skickliga kockar med noggrant utvalda råvaror. Upplev en
+            atmosfär av lugn och lyx när du bor hos oss. Vi ser fram emot att välkomna dig!
+        </p>
+        <h3>Eleganta och bekväma rum</h3>
+        <p>
+            Hos oss bor du i stilfullt inredda rum med en harmonisk kombination av modern design och klassisk komfort. Vi erbjuder
+            allt från mysiga enkelrum till rymliga sviter med panoramautsikt. Vare sig du reser för affärer eller nöje, har vi det
+            perfekta rummet för dig.
+        </p>
+    </div>
+
+    <div id="room-options" class="tab-content">
+        <h3>Våra rum</h3>
+        <p>
+            Vi erbjuder ett brett utbud av rum som passar alla behov:
+        </p>
+        <ul>
+            <strong>Standardrum:</strong> Perfekt för kortare vistelser och affärsresor. <br />
+            <strong>Deluxerum:</strong> Lyxigare inredning med extra komfort.<br />
+            <strong>Svit:</strong> För den ultimata hotellupplevelsen med panoramautsikt och privat lounge.
+        </ul>
+    </div>
+
+    <div id="food" class="tab-content">
+        <h3>Mat & Dryck</h3>
+        <p>
+            Vår restaurang är en smakupplevelse utöver det vanliga. Här serveras rätter tillagade med säsongens bästa råvaror och
+            inspiration från både lokala och internationella kök.
+        </p>
+        <ul>
+            <strong>Lyxig frukostbuffé varje morgon.</strong>
+            <br />
+            <strong>À la carte-meny med omsorgsfullt utvalda rätter.</strong>
+            <br />
+            <strong>Bar med ett brett utbud av viner och cocktails – perfekt för att avrunda kvällen.</strong>
+        </ul>
+    </div>
+
+    <div id="info" class="tab-content">
+        <h3>Bra att veta</h3>
+        <ul>
+            <strong>Incheckning:</strong> Från kl. 15.00 </br>
+            <strong>Utcheckning:</strong> Senast kl. 11.00  </br>
+            <strong>Frukostbuffé ingår</strong> för alla gäster. </br>
+            <strong>Gratis WiFi</strong> i hela hotellet. </br>
+            <strong>Parkering finns</strong> på plats och kan förbokas. </br>
+            <strong>Husdjur är välkomna</strong> – kontakta oss i förväg för detaljer. </br>
+            Hela hotellet är <strong>rökfritt</strong> för en trivsam miljö.</br>
+        </ul>
+    </div>
+
+    <div id="events" class="tab-content">
+        <h3>Event</h3>
+        <p>
+            Vi erbjuder moderna och eleganta lokaler för alla typer av evenemang, från bröllop och födelsedagar till konferenser
+            och affärsmöten.
+        </p>
+        <p>
+            Våra eventkoordinatorer hjälper dig att planera och genomföra ett minnesvärt evenemang. Hotellets utsökta cateringalternativ
+            och toppmoderna utrustning säkerställer att allt går enligt plan.
+        </p>
+    </div>
+
+
+<!--- Lediga rum-delen-->
+<!--<section class="available-rooms">
+    <h2>Lediga rum</h2>
+    <div class="room-list">
+        <div class="room-card">
+                <img src="~/images/deluxe1.png" alt="Deluxe">
+            <h3>Deluxerum</h3>
+            <p>Modernt rum med fantastisk utsikt.</p>
+            <button class="book-button">Boka nu</button>
+        </div>
+        <div class="room-card">
+                <img src="~/images/suite1.png" alt="Svit">
+            <h3>Svit</h3>
+            <p>Exklusivt boende med privat jacuzzi.</p>
+            <button class="book-button">Boka nu</button>
+        </div>
+    </div>
+</section>-->
+    <section class="room-selection">
+        <h2>Rum på Hotell Lyx</h2>
+
+        <!-- Standardrum -->
+        <div class="room-card">
+            <div class="room-images">
+                <img src="~/images/Standard/standard1.png" alt="Standard">
+                <div class="small-images">
+                    <img src="~/images/Standard/standard2.png" alt="Standard">
+                    <img src="~/images/Standard/standard3.png" alt="Standard">
+                </div>
+            </div>
+            <div class="room-info">
+                <h3>Standard</h3>
+                <p><strong>Queen Size-säng eller enkelsäng</strong> | 25 kvm</p>
+                <p>Vårt standardrum erbjuder en harmonisk balans mellan stil och komfort. 
+                    Här sover du gott i en skön dubbelsäng eller två enkelsängar, omgiven av en lugn och elegant inredning.
+                </p>
+                  <p> Rummet är utrustat med moderna bekvämligheter som platt-TV, gratis WiFi och en välfylld minibar. 
+                    Badrummet har lyxiga toalettartiklar och en rymlig dusch för en avkopplande start på dagen. 
+                    Perfekt för både affärsresenärer och semesterfirare som söker en bekväm och stilren vistelse.</p>
+
+                <div class="price-options">
+                    <label><input type="radio" name="standard-price" checked> Ej återbetalningsbar - 1390 SEK</label>
+                    <label><input type="radio" name="standard-price"> Fri avbokning - 1780 SEK</label>
+                </div>
+
+                <div class="total-price">
+                    <strong>Total: 1390 SEK</strong>
+                </div>
+                <button class="book-button">Boka</button>
+                <a href="@Url.Action("DetailsStandard", "Rooms")" class="info-button">Mer information</a>
+
+            </div>
+        
+        </div>
+
+        <!-- Deluxerum -->
+        <div class="room-card">
+            <div class="room-images">
+                <img src="~/images/Deluxe/deluxe1.png" alt="Deluxe">
+                <div class="small-images">
+                    <img src="~/images//Deluxe/deluxe2.png" alt="Deluxe">
+                    <img src="~/images//Deluxe/deluxe3.png" alt="Deluxe">
+                </div>
+            </div>
+            <div class="room-info">
+                <h3>Deluxe</h3>
+                <p><strong>King Size-säng</strong> | 28-32 kvm</p>
+                <p>Vårt Deluxerum på 30 kvadratmeter erbjuder extra utrymme och lyxiga detaljer för en ännu mer komfortabel vistelse. </p>
+                <p>Rummet är smakfullt inrett med stilrena möbler, en lyxig dubbelsäng och stora fönster som släpper in vackert ljus. 
+                    Här finns även en mysig sittgrupp, espressomaskin och en rymlig badrumsupplevelse med både dusch och badkar. 
+                    Perfekt för dig som vill unna dig det lilla extra under din vistelse.</p>
+
+                <div class="price-options">
+                    <label><input type="radio" name="deluxe-price" checked> Ej återbetalningsbar - 2250 SEK</label>
+                    <label><input type="radio" name="deluxe-price"> Fri avbokning - 2500 SEK</label>
+                </div>
+
+                <div class="total-price">
+                    <strong>Total: 2250 SEK</strong>
+                </div>
+                <button class="book-button">Boka</button>
+                <a href="@Url.Action("DetailsDeluxe", "Rooms")" class="info-button">Mer information</a>
+
+
+            </div>
+        
+        </div>
+
+        <!-- Svit -->
+        <div class="room-card">
+            <div class="room-images">
+                <img src="~/images/Suite/suite1.png" alt="Svit">
+                <div class="small-images">
+                    <img src="~/images/Suite/suite2.png" alt="Svit">
+                    <img src="~/images/Suite/suite3.png" alt="Svit">
+                </div>
+            
+            </div>
+            <div class="room-info">
+                <h3>Svit</h3>
+                <p><strong>King Size-säng</strong> | 40-46 kvm</p>
+                <p>Vår exklusiva svit på 45 kvadratmeter är designad för den som söker det allra bästa. </p>
+                <p> Här möts du av en rymlig och stilfull miljö med en separat sovdel, en elegant vardagsrumsdel och en privat balkong med fantastisk utsikt.</p>
+                <p> Den lyxiga badrumsupplevelsen inkluderar både regndusch och ett fristående badkar, perfekt för avkoppling. </p>
+                <p> För extra bekvämlighet finns espressomaskin, minibar och exklusiva badprodukter. 
+                    En förstklassig upplevelse för en oförglömlig vistelse..</p>
+
+                <div class="price-options">
+                    <label><input type="radio" name="suite-price" checked> Ej återbetalningsbar - 4950 SEK</label>
+                    <label><input type="radio" name="suite-price"> Fri avbokning - 5120 SEK</label>
+                </div>
+
+                <div class="total-price">
+                    <strong>Total: 4950 SEK</strong>
+                </div>
+                <button class="book-button">Boka</button>
+                <a href="@Url.Action("DetailsSvit", "Rooms")" class="info-button">Mer information</a>
+
+
+            </div>
+        
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- Lägg till JavaScript-koden för tabbväxling -->
+    <script>
+        function showTab(event, tabId) {
+            // Dölj alla tabbar
+            let tabs = document.querySelectorAll(".tab-content");
+            tabs.forEach(tab => tab.classList.remove("active"));
+
+            // Ta bort "active" från alla knappar
+            let tabButtons = document.querySelectorAll(".tab-item");
+            tabButtons.forEach(button => button.classList.remove("active"));
+
+            // Visa rätt innehåll
+            document.getElementById(tabId).classList.add("active");
+            event.currentTarget.classList.add("active");
+        }
+    </script>
+</body>
+

@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Standard";
+    var headerImage = "/images/Standard/standard1.png";
+}
+<!-- Hero-header -->
+<div class="room-hero" style="background-image: url('@headerImage');">
+    <div class="room-hero-content">
+        <h1>Standardrum</h1>
+    </div>
+</div>
+
+<section class="room-selection">
+    <h2>Standardrum</h2>
+
+    <!-- Standardrum -->
+    <div class="room-card">
+        <div class="room-images">
+            <img src="~/images/Standard/standard1.png" alt="Standard">
+            <img src="~/images/Standard/standard2.png" alt="Standard">
+            <img src="~/images/Standard/standard3.png" alt="Standard">
+           
+        </div>
+
+        <div class="room-info">
+            <h3>Standard</h3>
+            <p><strong>Queen Size-säng eller enkelsäng</strong> | 25 kvm</p>
+            <p>
+                Vårt standardrum erbjuder en harmonisk balans mellan stil och komfort.
+                Här sover du gott i en skön dubbelsäng eller två enkelsängar, omgiven av en lugn och elegant inredning.
+            </p>
+            <p>
+                Rummet är utrustat med moderna bekvämligheter som:
+                <li>Platt-TV</li> 
+                <li>Gratis WiFi</li>
+                <li>Välfylld minibar.</li> </br>
+                Badrummet har lyxiga toalettartiklar och en rymlig dusch för en avkopplande start på dagen.
+                Perfekt för både affärsresenärer och semesterfirare som söker en bekväm och stilren vistelse.
+            </p>
+
+            <div class="price-options">
+                <label><input type="radio" name="standard-price" checked> Ej återbetalningsbar - 1390 SEK</label>
+                <label><input type="radio" name="standard-price"> Fri avbokning - 1780 SEK</label>
+            </div>
+
+            <div class="total-price">
+                <strong>Total: 1390 SEK</strong>
+            </div>
+
+            <button class="book-button">Boka</button>
+            <a href="@Url.Action("Index", "Rooms")" class="info-button">Tillbaka</a>
+        </div>
+    </div>
+</section>

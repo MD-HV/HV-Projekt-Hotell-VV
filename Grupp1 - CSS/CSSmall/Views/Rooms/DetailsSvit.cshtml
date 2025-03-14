@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Svit";
+    var headerImage = "/images/Suite/suite1.png";
+}
+
+<!-- Hero-header -->
+<div class="room-hero" style="background-image: url('@headerImage');">
+    <div class="room-hero-content">
+        <h1>Svit</h1>
+    </div>
+</div>
+
+<section class="room-selection">
+    <h2>Sviten</h2>
+
+    <!-- Svit -->
+    <div class="room-card">
+        <div class="room-images">
+            <img src="~/images/Suite/suite1.png" alt="Svit">
+            <img src="~/images/Suite/suite2.png" alt="Svit">
+            <img src="~/images/Suite/suite3.png" alt="Svit">
+        </div>
+
+        <div class="room-info">
+            <h3>Svit</h3>
+            <p><strong>King Size-säng</strong> | 40-46 kvm</p>
+            <p>
+                Vår exklusiva svit på 45 kvadratmeter är designad för den som söker det allra bästa.
+            </p>
+            <p>
+                Här möts du av en rymlig och stilfull miljö med en separat sovdel, en elegant vardagsrumsdel
+                och en privat balkong med fantastisk utsikt.
+            </p>
+            <p>
+                Den lyxiga badrumsupplevelsen inkluderar både regndusch och ett fristående badkar, perfekt för avkoppling.
+            </p>
+            <p>
+                För extra bekvämlighet finns espressomaskin, minibar och exklusiva badprodukter.
+                En förstklassig upplevelse för en oförglömlig vistelse.
+            </p>
+
+            <div class="price-options">
+                <label><input type="radio" name="suite-price" checked> Ej återbetalningsbar - 4950 SEK</label>
+                <label><input type="radio" name="suite-price"> Fri avbokning - 5120 SEK</label>
+            </div>
+
+            <div class="total-price">
+                <strong>Total: 4950 SEK</strong>
+            </div>
+
+            <button class="book-button">Boka</button>
+            <a href="@Url.Action("Index", "Rooms")" class="info-button">Tillbaka</a>
+        </div>
+    </div>
+</section>
