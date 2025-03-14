@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bAsq9/LSwmM=",
+  "dgSpecHash": "38nJPxC0p5k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikon\\Desktop\\HV\\SOS100\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\CleaningAPI.csproj",
+  "projectFilePath": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\CleaningAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikon\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nikon\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
