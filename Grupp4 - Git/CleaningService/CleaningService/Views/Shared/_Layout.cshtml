@@ -23,9 +23,11 @@
             <li><a asp-controller="Home" asp-action="Offers">Erbjudanden</a></li>
             <li><a asp-controller="Home" asp-action="Clean">Städ</a></li>
         </ul>
-        <button class="button login-btn">
+        <a asp-controller="Admin" asp-action="Index">
+        <button class="button login-btn" asp-controller="Admin" asp-action="Index">
             <img src="~/images/login.png" alt="Logga in" class="login-icon"> Logga in
         </button>
+        </a> 
     </nav>
 
     <main>

@@ -14,6 +14,7 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 /* Navigeringsmeny */
@@ -82,10 +83,15 @@ nav {
     margin-right: 20px;
 }
 
+.login-icon {
+    max-height: 30px;
+    max-width: 30px;
+}
+
     .login-btn img {
         width: 30px;
         height: auto;
-        border-radius: 50%
+        border-radius: 50%;
     }
 
     .login-btn:hover {
@@ -222,11 +228,11 @@ nav {
 /* Footer */
 footer {
     background-color: var(--secondary-color);
-    padding-bottom: 20px 5%;
+    /*padding-bottom: 20px 5%;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -694,15 +700,19 @@ footer {
 .cleantable {
     display:flex;
     margin-top: 5%;
+    margin-bottom: 10%;
+    justify-content: center;
 }
 .rowtest {
     display: flex;
-    flex-direction:row;
     text-align: left;
     list-style: none;
     padding: 0;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-left: 1em;
+    flex-direction: row;
+    flex-grow: inherit;
+    align-self: center;
 }
     .rowtest ul {
         text-decoration: none;
@@ -725,4 +735,10 @@ footer {
     display: flex;
     flex-grow: inherit;
     flex-wrap: wrap;
+}
+
+.logindiv {
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
 }
