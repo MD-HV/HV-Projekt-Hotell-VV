@@ -18,6 +18,7 @@ C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningSer
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\wwwroot\lib\jquery\dist\jquery.js
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\wwwroot\css\konto.css
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
@@ -60,6 +61,7 @@ C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningSer
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\css\konto.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\deluxe1.png
