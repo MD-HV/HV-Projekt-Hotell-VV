@@ -1,9 +1,12 @@
-﻿<div class="logindiv">
+﻿<link href="~/css/konto.css" rel="stylesheet" />
+
+<div class="logindiv">
 
     @if (ViewBag.ErrorMessage != null) {
         <p>@ViewBag.ErrorMessage</p>
     }
 
+    <div class="login-box">
     <form asp-action="Index" method="post">
         <label>Användarnamn</label><br/>
         <input type="text" id="username" name="username" required /><br />
@@ -11,6 +14,7 @@
         <label>Lösenord</label><br/>
         <input type="password" id="password" name="password" required /><br />
 
-        <input type="submit" value="Logga in" />
+        <button type="submit" value="Logga in" class="konto-knapp">Logga in</button>
     </form>
+    <div/> 
 </div>
