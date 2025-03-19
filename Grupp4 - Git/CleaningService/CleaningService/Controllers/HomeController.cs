@@ -36,7 +36,7 @@ namespace CleaningService.Controllers
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri("https://localhost:7108/api/Cleaning"),
+                RequestUri = new Uri("https://informatik3.ei.hv.se/CleaningAPI/api/Cleaning"),
             };
 
             try

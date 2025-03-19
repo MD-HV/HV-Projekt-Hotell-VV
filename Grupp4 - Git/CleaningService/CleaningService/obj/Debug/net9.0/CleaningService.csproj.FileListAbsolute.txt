@@ -584,7 +584,8 @@ C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningSer
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\CleaningService.genruntimeconfig.cache
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\ref\CleaningService.dll
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\5s7vpacj8k-yv8yppu31o.gz
-C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\i2yju4kshp-hx90xjyvzq.gz
 C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\5s7vpacj8k-yv8yppu31o.gz
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\i2yju4kshp-xqcb4z1xi5.gz
 C:\Users\andre\source\repos\GitHub\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\cv30llvwnw-nfz9tciu92.gz
+C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\cv30llvwnw-nfz9tciu92.gz
+C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningService\CleaningService\obj\Debug\net9.0\compressed\i2yju4kshp-xqcb4z1xi5.gz
