@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningAPI\bin\Release\net9.0\publish\</_PublishTargetUrl>
+    <History>True|2025-03-19T12:04:33.8539811Z||;True|2025-03-19T12:21:54.0551818+01:00||;True|2025-03-19T12:21:30.6459861+01:00||;True|2025-03-17T16:32:48.5635911+01:00||;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=193.10.202.73%3bDatabase=CleaningAPI%3bUser ID=sa%3bPassword=TSB100sql%3bMultipleActiveResultSets=true%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

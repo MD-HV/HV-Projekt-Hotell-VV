@@ -9,63 +9,81 @@ namespace CleaningAPI.Controllers
     {
         private readonly IHttpContextAccessor _contextAccessor;
         private readonly CleaningDbContext _context;
+        private readonly AuthService _authService;
 
         private readonly ILogger<CleaningController> _logger;
 
-        public CleaningController(ILogger<CleaningController> logger, CleaningDbContext context)
+        public CleaningController(ILogger<CleaningController> logger, CleaningDbContext context, AuthService authService)
         {
             _logger = logger;
             _context = context;
+            _authService = authService;
         }
 
         [HttpGet(Name = "Cleaning")]
-        public IEnumerable<Task> Get()
+        public IEnumerable<CleaningTask> Get()
         {
-            var Tasks = _context.Tasks.ToList();
+            var Tasks = _context.CleaningTasks.ToList();
 
             return Tasks.ToList();
         }
         [HttpPost]
         [Route("AddTask")]
-        public string AddTask(Task Tasks)
+        public async Task<IActionResult> AddTask(CleaningTask Tasks)
         {
             string response = string.Empty;
-            _context.Tasks.Add(Tasks);
+            _context.CleaningTasks.Add(Tasks);
             _context.SaveChanges();
 
-            return "Task created";
+            return Ok("Task created");
         }
 
         [HttpPut]
         [Route("UpdateTask")]
-        public string UpdateTask(Task Tasks)
+        public async Task<IActionResult> UpdateTask(CleaningTask Tasks)
         {
             if (Tasks.Id != 0)
             {
-                _context.Tasks.Update(Tasks);
+                _context.CleaningTasks.Update(Tasks);
                 _context.SaveChanges();
-                return "Task updated.";
+                return Ok("Task updated.");
             }
             else
             {
-                return "Error, Task does not exist!";
+                return BadRequest("Error, Task does not exist!");
             }
         }
 
         [HttpDelete]
         [Route("RemoveTask")]
-        public string RemoveTask(int Tasks)
+        public async Task<IActionResult> RemoveTask(int Tasks)
         {
-            var TasksInDb = _context.Tasks.SingleOrDefault(s => s.Id == Tasks);
+            var TasksInDb = _context.CleaningTasks.SingleOrDefault(s => s.Id == Tasks);
 
-            _context.Tasks.Remove(TasksInDb);
+            _context.CleaningTasks.Remove(TasksInDb);
             _context.SaveChanges();
-            return "Task Removed";
+            return Ok("Task Removed");
         }
         [HttpGet("health")]
         public IActionResult HealthCheck()
         {
             return Ok(new { status = "API Running" });
+        }
+        [HttpPost]
+        [Route("Login")]
+        public async Task<IActionResult> LoginUser([FromBody] LoginDto loginDto)
+        {
+            if (loginDto == null || string.IsNullOrEmpty(loginDto.Username) || string.IsNullOrEmpty(loginDto.Password)) { 
+            return BadRequest("Username or Password is empty or incorrect!");
+            }
+
+            var user = await _authService.AuthenticateAsync(loginDto.Username, loginDto.Password);
+
+            if (user == null) {
+            return Unauthorized();
+            }
+            
+            return Ok(user);
         }
     }
 }
