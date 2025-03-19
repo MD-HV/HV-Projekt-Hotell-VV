@@ -20,5 +20,7 @@ namespace MenuAPI.Models
         public bool IsVegetarian { get; set; } = false;
 
         public string? ImageURL { get; set; }
+
+        public string? Description { get; set; }
     }
 }

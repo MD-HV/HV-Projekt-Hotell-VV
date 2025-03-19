@@ -166,3 +166,4 @@ C:\Users\meist\Desktop\MenuAPI\MenuAPI\obj\Debug\net9.0\refint\MenuAPI.dll
 C:\Users\meist\Desktop\MenuAPI\MenuAPI\obj\Debug\net9.0\MenuAPI.pdb
 C:\Users\meist\Desktop\MenuAPI\MenuAPI\obj\Debug\net9.0\MenuAPI.genruntimeconfig.cache
 C:\Users\meist\Desktop\MenuAPI\MenuAPI\obj\Debug\net9.0\ref\MenuAPI.dll
+C:\Users\meist\Desktop\MenuAPI\MenuAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

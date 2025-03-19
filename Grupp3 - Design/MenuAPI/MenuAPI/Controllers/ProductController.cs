@@ -35,6 +35,26 @@ namespace MenuAPI.Controllers
             return Ok(product);
         }
 
+        // ✅ Sök efter produkter baserat på kategori och/eller produktnamn
+        [HttpGet("search")]
+        public async Task<IActionResult> SearchProducts([FromQuery] string? category, [FromQuery] string? name)
+        {
+            var query = _context.Products.AsQueryable();
+
+            if (!string.IsNullOrEmpty(category))
+            {
+                query = query.Where(p => (p.Category ?? "").ToLower().Contains(category.ToLower()));
+            }
+
+            if (!string.IsNullOrEmpty(name))
+            {
+                query = query.Where(p => (p.ProductName ?? "").ToLower().Contains(name.ToLower()));
+            }
+
+            var products = await query.ToListAsync();
+            return Ok(products);
+        }
+
         // ✅ Lägg till en ny produkt
         [HttpPost("create")]
         public async Task<IActionResult> CreateProduct([FromBody] Product model)
@@ -60,6 +80,7 @@ namespace MenuAPI.Controllers
             product.Price = model.Price;
             product.IsVegetarian = model.IsVegetarian;
             product.ImageURL = model.ImageURL;
+            product.Description = model.Description;
 
             await _context.SaveChangesAsync();
             return Ok(product);
