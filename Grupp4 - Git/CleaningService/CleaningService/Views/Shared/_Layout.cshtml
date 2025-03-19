@@ -1,4 +1,11 @@
-﻿<!DOCTYPE html>
+﻿@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var roleID = HttpContextAccessor.HttpContext?.Session?.GetInt32("UserRole");
+    var username = HttpContextAccessor.HttpContext?.Session?.GetString("Username");
+    bool isHomePage = ViewData["Title"]?.ToString() == "Startsida";
+}
+
+<!DOCTYPE html>
 <html lang="sv">
 <head>
     <meta charset="UTF-8">
@@ -22,12 +29,27 @@
             <li><a asp-controller="Home" asp-action="Event">Event</a></li>
             <li><a asp-controller="Home" asp-action="Offers">Erbjudanden</a></li>
             <li><a asp-controller="Home" asp-action="Clean">Städ</a></li>
+
+            @if (roleID == 1) // Visa Admin endast för behöriga användare
+            {
+                <li><a asp-controller="Dashboard" asp-action="Index">Admin</a></li>
+            }
         </ul>
-        <a asp-controller="Admin" asp-action="Index">
+        @if (string.IsNullOrEmpty(username))
+        {
+        <a asp-controller="Admin" asp-action="Login">
         <button class="button login-btn" asp-controller="Admin" asp-action="Index">
             <img src="~/images/login.png" alt="Logga in" class="login-icon"> Logga in
         </button>
         </a> 
+        }
+        else{
+            <form asp-controller="Account" asp-action="Logout" method="post">
+                <button type="submit">
+                    <img src="~/images/login.png" alt="Logga in" class="login-icon"> Logga ut
+                </button>
+            </form>
+        }
     </nav>
 
     <main>

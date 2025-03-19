@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleaningService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e9ccba83f21c17088b2ddc2ea72b4cb619922f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7313e81f6e2773e884e3b290a31df8a86e4c11c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleaningService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleaningService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

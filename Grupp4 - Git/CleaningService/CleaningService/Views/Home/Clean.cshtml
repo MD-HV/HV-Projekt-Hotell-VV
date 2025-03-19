@@ -1,8 +1,16 @@
 ﻿@model List<CleaningAPI>?;
+
+    @if (User.Identity.IsAuthenticated)
+        {
+            <a asp-controller="Admin" asp-action="Create">
+            <button asp-controller="Admin" asp-action="Create" class="GoToCreate">Skapa</button>
+            </a>
+        }
 <div class="cleantable">
     @if (Model == null || Model.Count == 0) {
         <tr><p>No Task found</p></tr>
     }else{
+        
         <div class="rowmain">
                 @foreach (var t in Model)
                 {
@@ -18,6 +26,8 @@
                                     <li><strong>Cleaning Status:</strong> @t.IsCleaning</li>
                                     <li><strong>Damages: </strong>@t.ReportedDamages</li>
                                 </ul>
+                            <button>Update</button>
+                            <button>Delete</button>
                             </div>
                         </div>
                     </div>
