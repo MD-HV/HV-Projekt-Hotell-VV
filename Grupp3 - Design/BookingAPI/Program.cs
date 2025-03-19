@@ -5,6 +5,18 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5173") // React-frontend
+                  .AllowAnyMethod()
+                  .AllowAnyHeader()
+                  .AllowCredentials();
+        });
+});
+
 builder.Services.AddDbContext<BookingDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -27,6 +39,8 @@ var app = builder.Build();
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowReactApp");
+app.UseMiddleware<ApiLoggingMiddleware>();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

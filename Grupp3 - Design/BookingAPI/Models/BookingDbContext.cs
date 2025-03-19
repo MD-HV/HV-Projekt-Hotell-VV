@@ -8,6 +8,7 @@ namespace BookingAPI.Models
 
         public DbSet<Booking> Bookings { get; set; }
         public DbSet<DinnerTable> DinnerTables { get; set; }
+        public DbSet<ApiUsageLog> ApiUsageLogs { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

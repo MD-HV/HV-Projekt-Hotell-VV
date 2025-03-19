@@ -216,6 +216,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MenuAPI.Controllers.StatisticsController",
+    "Method": "GetUsageStats",
+    "RelativePath": "api/stats/usage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MenuAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

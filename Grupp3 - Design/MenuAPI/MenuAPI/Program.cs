@@ -3,6 +3,18 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5173") // React-frontend
+                  .AllowAnyMethod()
+                  .AllowAnyHeader()
+                  .AllowCredentials();
+        });
+});
+
 // Lägg till tjänster i DI-container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -27,6 +39,10 @@ var app = builder.Build();
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowReactApp");
+
+app.UseMiddleware<ApiLoggingMiddleware>();
+
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
