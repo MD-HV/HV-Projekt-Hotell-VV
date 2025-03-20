@@ -441,6 +441,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
 /Grupp4 - Git/CleaningAPI/.vs
 /Grupp4 - Git/CleaningAPI/obj
 Grupp4 - Git/CleaningAPI/.vs/CleaningAPI/DesignTimeBuild/.dtbcache.v2
