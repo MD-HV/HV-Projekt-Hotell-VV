@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FZerY98s68smZgQ+EC+7/oppBUXltiGyKH3tHYeytZ8=",
+  "Hash": "4pJ6GvqTek5DLx/76blQfE8/BLgeve9N9ronm4+EBak=",
   "Source": "CleaningService",
   "BasePath": "_content/CleaningService",
   "Mode": "Default",
@@ -731,12 +731,12 @@
       "OriginalItemSpec": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-m68yxjdx4l.gz",
+      "Identity": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-gt01wqkyex.gz",
       "SourceId": "CleaningService",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CleaningService",
-      "RelativePath": "css/site#[.{fingerprint=m68yxjdx4l}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=gt01wqkyex}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -745,8 +745,8 @@
       "RelatedAsset": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "t4am377wgj",
-      "Integrity": "zauUM85+jL0mN2XuAmxHkpfDMdYtEPLs/8fViydmeoI=",
+      "Fingerprint": "hfi3teemhy",
+      "Integrity": "DRVk+1ZULpl2lXz4aue7RRlcCrOtCSEL131BVyeGs9Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\css\\site.css"
@@ -1459,8 +1459,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "m68yxjdx4l",
-      "Integrity": "EqV9t4tGFOzW9osvEL5d3RSEcBjCWho0YG2/9Leibj8=",
+      "Fingerprint": "gt01wqkyex",
+      "Integrity": "nL3ix7TiuLjTJ7w4ayoc1c9R2zLZy0/zfe0I8k0R1f4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4022,12 +4022,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-m68yxjdx4l.gz",
+      "AssetFile": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-gt01wqkyex.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000338638673"
+          "Quality": "0.000338409475"
         }
       ],
       "ResponseHeaders": [
@@ -4037,15 +4037,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2952"
+          "Value": "2954"
         },
         {
           "Name": "ETag",
-          "Value": "\"zauUM85+jL0mN2XuAmxHkpfDMdYtEPLs/8fViydmeoI=\""
+          "Value": "\"DRVk+1ZULpl2lXz4aue7RRlcCrOtCSEL131BVyeGs9Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 12:42:01 GMT"
+          "Value": "Thu, 20 Mar 2025 12:07:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4065,13 +4065,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EqV9t4tGFOzW9osvEL5d3RSEcBjCWho0YG2/9Leibj8=\""
+          "Value": "W/\"nL3ix7TiuLjTJ7w4ayoc1c9R2zLZy0/zfe0I8k0R1f4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EqV9t4tGFOzW9osvEL5d3RSEcBjCWho0YG2/9Leibj8="
+          "Value": "sha256-nL3ix7TiuLjTJ7w4ayoc1c9R2zLZy0/zfe0I8k0R1f4="
         }
       ]
     },
@@ -4086,7 +4086,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13963"
+          "Value": "13965"
         },
         {
           "Name": "Content-Type",
@@ -4094,11 +4094,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EqV9t4tGFOzW9osvEL5d3RSEcBjCWho0YG2/9Leibj8=\""
+          "Value": "\"nL3ix7TiuLjTJ7w4ayoc1c9R2zLZy0/zfe0I8k0R1f4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 12:42:01 GMT"
+          "Value": "Thu, 20 Mar 2025 12:07:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4108,13 +4108,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EqV9t4tGFOzW9osvEL5d3RSEcBjCWho0YG2/9Leibj8="
+          "Value": "sha256-nL3ix7TiuLjTJ7w4ayoc1c9R2zLZy0/zfe0I8k0R1f4="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-m68yxjdx4l.gz",
+      "AssetFile": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-gt01wqkyex.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4123,7 +4123,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2952"
+          "Value": "2954"
         },
         {
           "Name": "Content-Type",
@@ -4131,11 +4131,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zauUM85+jL0mN2XuAmxHkpfDMdYtEPLs/8fViydmeoI=\""
+          "Value": "\"DRVk+1ZULpl2lXz4aue7RRlcCrOtCSEL131BVyeGs9Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 12:42:01 GMT"
+          "Value": "Thu, 20 Mar 2025 12:07:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4153,18 +4153,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zauUM85+jL0mN2XuAmxHkpfDMdYtEPLs/8fViydmeoI="
+          "Value": "sha256-DRVk+1ZULpl2lXz4aue7RRlcCrOtCSEL131BVyeGs9Q="
         }
       ]
     },
     {
-      "Route": "css/site.m68yxjdx4l.css",
-      "AssetFile": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-m68yxjdx4l.gz",
+      "Route": "css/site.gt01wqkyex.css",
+      "AssetFile": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-gt01wqkyex.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000338638673"
+          "Quality": "0.000338409475"
         }
       ],
       "ResponseHeaders": [
@@ -4174,15 +4174,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2952"
+          "Value": "2954"
         },
         {
           "Name": "ETag",
-          "Value": "\"zauUM85+jL0mN2XuAmxHkpfDMdYtEPLs/8fViydmeoI=\""
+          "Value": "\"DRVk+1ZULpl2lXz4aue7RRlcCrOtCSEL131BVyeGs9Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 12:42:01 GMT"
+          "Value": "Thu, 20 Mar 2025 12:07:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4202,13 +4202,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EqV9t4tGFOzW9osvEL5d3RSEcBjCWho0YG2/9Leibj8=\""
+          "Value": "W/\"nL3ix7TiuLjTJ7w4ayoc1c9R2zLZy0/zfe0I8k0R1f4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m68yxjdx4l"
+          "Value": "gt01wqkyex"
         },
         {
           "Name": "label",
@@ -4216,12 +4216,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EqV9t4tGFOzW9osvEL5d3RSEcBjCWho0YG2/9Leibj8="
+          "Value": "sha256-nL3ix7TiuLjTJ7w4ayoc1c9R2zLZy0/zfe0I8k0R1f4="
         }
       ]
     },
     {
-      "Route": "css/site.m68yxjdx4l.css",
+      "Route": "css/site.gt01wqkyex.css",
       "AssetFile": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4231,7 +4231,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13963"
+          "Value": "13965"
         },
         {
           "Name": "Content-Type",
@@ -4239,11 +4239,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EqV9t4tGFOzW9osvEL5d3RSEcBjCWho0YG2/9Leibj8=\""
+          "Value": "\"nL3ix7TiuLjTJ7w4ayoc1c9R2zLZy0/zfe0I8k0R1f4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 12:42:01 GMT"
+          "Value": "Thu, 20 Mar 2025 12:07:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4253,7 +4253,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m68yxjdx4l"
+          "Value": "gt01wqkyex"
         },
         {
           "Name": "label",
@@ -4261,13 +4261,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EqV9t4tGFOzW9osvEL5d3RSEcBjCWho0YG2/9Leibj8="
+          "Value": "sha256-nL3ix7TiuLjTJ7w4ayoc1c9R2zLZy0/zfe0I8k0R1f4="
         }
       ]
     },
     {
-      "Route": "css/site.m68yxjdx4l.css.gz",
-      "AssetFile": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-m68yxjdx4l.gz",
+      "Route": "css/site.gt01wqkyex.css.gz",
+      "AssetFile": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningService\\CleaningService\\obj\\Debug\\net9.0\\compressed\\i2yju4kshp-gt01wqkyex.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4276,7 +4276,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2952"
+          "Value": "2954"
         },
         {
           "Name": "Content-Type",
@@ -4284,11 +4284,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zauUM85+jL0mN2XuAmxHkpfDMdYtEPLs/8fViydmeoI=\""
+          "Value": "\"DRVk+1ZULpl2lXz4aue7RRlcCrOtCSEL131BVyeGs9Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 12:42:01 GMT"
+          "Value": "Thu, 20 Mar 2025 12:07:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4306,7 +4306,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m68yxjdx4l"
+          "Value": "gt01wqkyex"
         },
         {
           "Name": "label",
@@ -4314,7 +4314,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zauUM85+jL0mN2XuAmxHkpfDMdYtEPLs/8fViydmeoI="
+          "Value": "sha256-DRVk+1ZULpl2lXz4aue7RRlcCrOtCSEL131BVyeGs9Q="
         }
       ]
     },

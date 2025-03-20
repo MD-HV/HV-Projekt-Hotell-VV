@@ -23,9 +23,9 @@ namespace CleaningService.Controllers
             return View();
         }
 
+
         //----------------------------------------------------------------------------
 
-        [Authorize]
         public async Task<IActionResult> Clean()
         {
             List<CleaningAPI>? tasksAPI = null;
@@ -37,6 +37,7 @@ namespace CleaningService.Controllers
             {
                 Method = HttpMethod.Get,
                 RequestUri = new Uri("https://informatik3.ei.hv.se/CleaningAPI/api/Cleaning"),
+               
             };
 
             try
@@ -64,6 +65,6 @@ namespace CleaningService.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
+        
     }
 }

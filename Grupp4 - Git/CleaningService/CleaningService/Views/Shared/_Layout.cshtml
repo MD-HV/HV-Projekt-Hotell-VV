@@ -37,10 +37,8 @@
         </ul>
         @if (string.IsNullOrEmpty(username))
         {
-        <a asp-controller="Admin" asp-action="Login">
-        <button class="button login-btn" asp-controller="Admin" asp-action="Index">
+        <a asp-controller="Account" asp-action="Login">
             <img src="~/images/login.png" alt="Logga in" class="login-icon"> Logga in
-        </button>
         </a> 
         }
         else{

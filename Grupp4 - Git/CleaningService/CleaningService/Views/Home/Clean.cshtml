@@ -1,11 +1,17 @@
-﻿@model List<CleaningAPI>?;
+﻿@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var roleID = HttpContextAccessor.HttpContext?.Session?.GetInt32("UserRole");
+    var username = HttpContextAccessor.HttpContext?.Session?.GetString("Username");
+    bool isHomePage = ViewData["Title"]?.ToString() == "Startsida";
+}
 
-    @if (User.Identity.IsAuthenticated)
-        {
-            <a asp-controller="Admin" asp-action="Create">
-            <button asp-controller="Admin" asp-action="Create" class="GoToCreate">Skapa</button>
-            </a>
-        }
+@model List<CleaningAPI>?;
+
+@if (roleID == 1) {
+    <a asp-controller="Create" asp-action="Index">
+        <button type="submit" class="GoToCreate">Skapa</button>
+    </a>
+}
 <div class="cleantable">
     @if (Model == null || Model.Count == 0) {
         <tr><p>No Task found</p></tr>

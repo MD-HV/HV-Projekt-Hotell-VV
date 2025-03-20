@@ -1,6 +1,6 @@
 ﻿namespace CleaningService.Models
 {
-    public class Task
+    public class CleaningTask
     {
         public int Id { get; set; }
         public int RoomId { get; set; }
