@@ -8,7 +8,7 @@ namespace CleaningService.Controllers
 {
     public class AdminController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }
@@ -29,6 +29,17 @@ namespace CleaningService.Controllers
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(identity));
 
             return RedirectToAction("Clean", "Home");
+        }
+
+        public async Task<IActionResult> SignOutUser()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult Create()
+        {
+            return View();
         }
     }
 }

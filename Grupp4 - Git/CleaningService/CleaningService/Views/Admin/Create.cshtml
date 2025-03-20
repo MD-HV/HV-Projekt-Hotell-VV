@@ -1,0 +1,28 @@
+﻿@model CleaningService.Models.CleaningAPI
+
+<form asp-action="Create" method="post" class="CreateForm">
+    <label>RumID</label><br />
+    <input type="number" required/><br />
+
+    <label>PersonalID:</label><br />
+    <input type="number" required /><br />
+    
+    <label>Kommentar:</label><br />
+    <input type="text" /><br />
+
+     
+    <label>Städstatus:</label>
+    <select>
+        <option value="false">Nej</option>
+        <option value="true">Ja</option>
+    </select> 
+    <br><br>
+
+    <button type="submit" class="btn btn-success">Spara</button> <br />
+
+    <a href="@Url.Action("Clean", "Home")" class="btn btn-secondary">Tillbaka</a>
+
+
+
+
+</form>

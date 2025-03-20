@@ -742,3 +742,11 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+.CreateForm {
+    margin: 10%;
+}
+
+.GoToCreate {
+    margin: 10%;
+}
