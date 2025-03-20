@@ -21,7 +21,7 @@ namespace CleaningAPI.Controllers
         [HttpGet(Name = "Cleaning")]
         public IEnumerable<CleaningTask> Get()
         {
-            var Tasks = _context.CleaningTasks.ToList();
+            var Tasks = await _context.CleaningTasks.ToListAsync();
 
             return Tasks.ToList();
         }
@@ -29,11 +29,15 @@ namespace CleaningAPI.Controllers
         [Route("AddTask")]
         public async Task<IActionResult> AddTask(CleaningTask Tasks)
         {
-            string response = string.Empty;
-            _context.CleaningTasks.Add(Tasks);
-            _context.SaveChanges();
+            if(Tasks == null){ return BadResponse("Error Task is Empty or Missing!");}
+            try{
+                _context.CleaningTasks.Add(Tasks);
+                await _context.SaveChangesAsync();
 
-            return Ok("Task created");
+                return Ok("Task created");
+            }catch(Exception ex){
+            return StatusCode(500, "An Error occured!");
+            }
         }
 
         [HttpPut]
@@ -42,9 +46,12 @@ namespace CleaningAPI.Controllers
         {
             if (Tasks.Id != 0)
             {
-                _context.CleaningTasks.Update(Tasks);
-                _context.SaveChanges();
+               try{ _context.CleaningTasks.Update(Tasks);
+                await _context.SaveChangesAsync();
                 return Ok("Task updated.");
+                }catch(Exception ex){
+                return StatusCode(500, "An Error occured!");
+                }
             }
             else
             {
@@ -56,11 +63,18 @@ namespace CleaningAPI.Controllers
         [Route("RemoveTask")]
         public async Task<IActionResult> RemoveTask(int Tasks)
         {
-            var TasksInDb = _context.CleaningTasks.SingleOrDefault(s => s.Id == Tasks);
-
-            _context.CleaningTasks.Remove(TasksInDb);
-            _context.SaveChanges();
-            return Ok("Task Removed");
+            if(Tasks != null || Tasks != 0){
+                var TasksInDb = _context.CleaningTasks.SingleOrDefault(s => s.Id == Tasks);
+                try{
+                    _context.CleaningTasks.Remove(TasksInDb);
+                    await _context.SaveChangesAsync();
+                    return Ok("Task Removed");
+                }catch(Exception ex){
+                return StatusCode(500, "An Error occured!");
+                }
+            
+            }
+            
         }
     }
 }
