@@ -9,15 +9,13 @@ namespace CleaningAPI.Controllers
     {
         private readonly IHttpContextAccessor _contextAccessor;
         private readonly CleaningDbContext _context;
-        private readonly AuthService _authService;
 
         private readonly ILogger<CleaningController> _logger;
 
-        public CleaningController(ILogger<CleaningController> logger, CleaningDbContext context, AuthService authService)
+        public CleaningController(ILogger<CleaningController> logger, CleaningDbContext context)
         {
             _logger = logger;
             _context = context;
-            _authService = authService;
         }
 
         [HttpGet(Name = "Cleaning")]
@@ -63,27 +61,6 @@ namespace CleaningAPI.Controllers
             _context.CleaningTasks.Remove(TasksInDb);
             _context.SaveChanges();
             return Ok("Task Removed");
-        }
-        [HttpGet("health")]
-        public IActionResult HealthCheck()
-        {
-            return Ok(new { status = "API Running" });
-        }
-        [HttpPost]
-        [Route("Login")]
-        public async Task<IActionResult> LoginUser([FromBody] LoginDto loginDto)
-        {
-            if (loginDto == null || string.IsNullOrEmpty(loginDto.Username) || string.IsNullOrEmpty(loginDto.Password)) { 
-            return BadRequest("Username or Password is empty or incorrect!");
-            }
-
-            var user = await _authService.AuthenticateAsync(loginDto.Username, loginDto.Password);
-
-            if (user == null) {
-            return Unauthorized();
-            }
-            
-            return Ok(user);
         }
     }
 }

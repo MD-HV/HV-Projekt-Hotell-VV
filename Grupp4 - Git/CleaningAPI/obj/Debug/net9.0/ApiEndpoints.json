@@ -38,32 +38,6 @@
   },
   {
     "ContainingType": "CleaningAPI.Controllers.CleaningController",
-    "Method": "HealthCheck",
-    "RelativePath": "api/Cleaning/health",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CleaningAPI.Controllers.CleaningController",
-    "Method": "LoginUser",
-    "RelativePath": "api/Cleaning/Login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "loginDto",
-        "Type": "CleaningAPI.LoginDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CleaningAPI.Controllers.CleaningController",
     "Method": "RemoveTask",
     "RelativePath": "api/Cleaning/RemoveTask",
     "HttpMethod": "DELETE",
@@ -92,6 +66,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CleaningAPI.Controllers.StatisticsController",
+    "Method": "HealthCheck",
+    "RelativePath": "api/stats/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

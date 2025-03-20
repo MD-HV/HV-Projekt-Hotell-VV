@@ -554,3 +554,4 @@ C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\Clean
 C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningAPI\obj\Debug\net9.0\CleaningAPI.pdb
 C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningAPI\obj\Debug\net9.0\CleaningAPI.genruntimeconfig.cache
 C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningAPI\obj\Debug\net9.0\ref\CleaningAPI.dll
+C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

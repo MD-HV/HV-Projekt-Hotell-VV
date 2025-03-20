@@ -23,7 +23,14 @@ builder.Services.AddDbContext<CleaningDbContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string not found!"));
 }); //B�r �ndras om vi ska k�ra vanliga SQLservrar! UseSqlite("Data Source=CleaningAPI.db") <--SQL Local = SQL server localt, Default = Jan-olofs log in på sin server
 
-builder.Services.AddScoped<AuthService>();
+// Add session services
+builder.Services.AddDistributedMemoryCache(); // This enables the in-memory session store
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Set session timeout to 30 minutes (or your preferred value)
+    options.Cookie.IsEssential = true; // Make sure the cookie is essential (needed for GDPR compliance)
+});
+
 
 var app = builder.Build();
 
@@ -38,6 +45,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseMiddleware<ApiLoggingMiddleware>();
+
+app.UseSession();
 
 app.UseAuthentication();
 app.UseAuthorization();

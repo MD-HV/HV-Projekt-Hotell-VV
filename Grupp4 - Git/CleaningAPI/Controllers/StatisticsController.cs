@@ -57,5 +57,11 @@ namespace CleaningAPI.Controllers
 
         }
 
+        [HttpGet("health")]
+        public IActionResult HealthCheck()
+        {
+            return Ok(new { status = "API Running" });
+        }
+
     }
 }

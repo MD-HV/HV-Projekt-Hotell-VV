@@ -3,7 +3,7 @@
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\nikon\Desktop\HV\SOS100 SOA\GIT\HV-Projekt-Hotell-VV\Grupp4 - Git\CleaningAPI\bin\Release\net9.0\publish\</_PublishTargetUrl>
-    <History>True|2025-03-19T12:04:33.8539811Z||;True|2025-03-19T12:21:54.0551818+01:00||;True|2025-03-19T12:21:30.6459861+01:00||;True|2025-03-17T16:32:48.5635911+01:00||;</History>
+    <History>True|2025-03-20T09:18:06.9471413Z||;True|2025-03-19T13:04:33.8539811+01:00||;True|2025-03-19T12:21:54.0551818+01:00||;True|2025-03-19T12:21:30.6459861+01:00||;True|2025-03-17T16:32:48.5635911+01:00||;</History>
     <LastFailureDetails />
     <TimeStampOfAssociatedLegacyPublishXmlFile />
   </PropertyGroup>
