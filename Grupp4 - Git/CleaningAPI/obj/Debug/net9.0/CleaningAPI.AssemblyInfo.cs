@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleaningAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+639d519b0fa3c1da3cf2a2c412bfaaae5b17ef6b")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41076e224b983d805dd3e3032bfc3ef91d77450a")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d89662179077f054dd72a3a46834a0434cb610ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleaningAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleaningAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

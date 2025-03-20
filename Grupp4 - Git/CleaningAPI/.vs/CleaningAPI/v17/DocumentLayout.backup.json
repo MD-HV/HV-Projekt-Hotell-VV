@@ -8,8 +8,32 @@
       "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:controllers\\cleaningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\cleaningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:cleaningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\apimonitoringmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:apimonitoringmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\apiusagelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:apiusagelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\cleaningtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:cleaningtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 =======
       "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\controllers\\cleaningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:controllers\\cleaningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -36,36 +60,19 @@
     {
       "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\cleaningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:cleaningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\cleaningtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:cleaningtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\nikon\\desktop\\hv\\sos100 soa\\git\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\apiusagelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:apiusagelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
       "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|c:\\users\\andre\\source\\repos\\github\\hv-projekt-hotell-vv\\grupp4 - git\\cleaningapi\\apimonitoringmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A0239F-A319-48B0-B945-10E9AEB4565C}|CleaningAPI.csproj|solutionrelative:apimonitoringmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -77,11 +84,33 @@
           "DockedWidth": 200,
 <<<<<<< Updated upstream
           "SelectedChildIndex": 12,
-=======
-          "SelectedChildIndex": 10,
->>>>>>> Stashed changes
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:1680198955:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1488836474:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1124394973:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+=======
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+>>>>>>> Stashed changes
               "$type": "Bookmark",
               "Name": "ST:1741014981:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
@@ -103,30 +132,6 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-19T13:06:42.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StatisticsController.cs",
-              "DocumentMoniker": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\Controllers\\StatisticsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StatisticsController.cs",
-              "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\Controllers\\StatisticsController.cs",
-              "RelativeToolTip": "Controllers\\StatisticsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T09:44:05.941Z",
-=======
               "DocumentIndex": 2,
               "Title": "dbo.CleaningTasks [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CleaningAPI/True/SqlTable/dbo.CleaningTasks.sql",
@@ -151,6 +156,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< Updated upstream
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-19T13:06:42.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\Controllers\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StatisticsController.cs",
+              "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\Controllers\\StatisticsController.cs",
+              "RelativeToolTip": "Controllers\\StatisticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T09:44:05.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiUsageLog.cs",
+              "DocumentMoniker": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\ApiUsageLog.cs",
+              "RelativeDocumentMoniker": "ApiUsageLog.cs",
+              "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\ApiUsageLog.cs",
+              "RelativeToolTip": "ApiUsageLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T09:22:29.593Z",
+=======
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\LoginDto.cs",
               "RelativeDocumentMoniker": "LoginDto.cs",
@@ -200,31 +241,16 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
-              "DocumentIndex": 6,
-              "Title": "ApiUsageLog.cs",
-              "DocumentMoniker": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\ApiUsageLog.cs",
-              "RelativeDocumentMoniker": "ApiUsageLog.cs",
-              "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\ApiUsageLog.cs",
-              "RelativeToolTip": "ApiUsageLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T09:22:29.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-=======
-              "DocumentIndex": 9,
->>>>>>> Stashed changes
+              "DocumentIndex": 2,
               "Title": "ApiMonitoringMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\ApiMonitoringMiddleware.cs",
               "RelativeDocumentMoniker": "ApiMonitoringMiddleware.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\ApiMonitoringMiddleware.cs",
               "RelativeToolTip": "ApiMonitoringMiddleware.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T08:57:52.456Z"
+              "WhenOpened": "2025-03-19T08:57:52.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -233,16 +259,16 @@
               "Title": "CleaningController.cs",
               "DocumentMoniker": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\Controllers\\CleaningController.cs",
               "RelativeDocumentMoniker": "Controllers\\CleaningController.cs",
-              "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\Controllers\\CleaningController.cs*",
-              "RelativeToolTip": "Controllers\\CleaningController.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\nikon\\Desktop\\HV\\SOS100 SOA\\GIT\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\Controllers\\CleaningController.cs",
+              "RelativeToolTip": "Controllers\\CleaningController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T09:36:17.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
 =======
               "DocumentIndex": 7,
 >>>>>>> Stashed changes
@@ -259,7 +285,7 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
 =======
               "DocumentIndex": 3,
 >>>>>>> Stashed changes
@@ -274,15 +300,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "CleaningDbContext.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\CleaningDbContext.cs",
               "RelativeDocumentMoniker": "CleaningDbContext.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\GitHub\\HV-Projekt-Hotell-VV\\Grupp4 - Git\\CleaningAPI\\CleaningDbContext.cs",
               "RelativeToolTip": "CleaningDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T09:23:09.632Z"
+              "WhenOpened": "2025-03-03T09:23:09.632Z",
+              "EditorCaption": ""
             }
           ]
         }
