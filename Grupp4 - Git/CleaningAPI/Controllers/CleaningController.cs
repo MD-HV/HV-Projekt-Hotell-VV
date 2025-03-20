@@ -63,7 +63,7 @@ namespace CleaningAPI.Controllers
         [Route("RemoveTask")]
         public async Task<IActionResult> RemoveTask(int Tasks)
         {
-            if(Tasks != null || Tasks != 0){
+            if(Tasks != null && Tasks != 0){
                 var TasksInDb = _context.CleaningTasks.SingleOrDefault(s => s.Id == Tasks);
                 try{
                     _context.CleaningTasks.Remove(TasksInDb);
