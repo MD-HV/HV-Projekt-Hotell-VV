@@ -63,18 +63,28 @@ namespace CleaningAPI.Controllers
         [Route("RemoveTask")]
         public async Task<IActionResult> RemoveTask(int Tasks)
         {
-            if(Tasks != null && Tasks != 0){
+            if (Tasks != 0)
+            {
                 var TasksInDb = _context.CleaningTasks.SingleOrDefault(s => s.Id == Tasks);
-                try{
+                if (TasksInDb == null)
+                {
+                    return NotFound("Task not found.");
+                }
+        
+                try
+                {
                     _context.CleaningTasks.Remove(TasksInDb);
                     await _context.SaveChangesAsync();
                     return Ok("Task Removed");
-                }catch(Exception ex){
-                return StatusCode(500, "An Error occured!");
                 }
-            
+                catch (Exception ex)
+                {
+                    // Optionally log ex here
+                    return StatusCode(500, "An Error occurred!");
+                }
             }
-            
+        
+            return BadRequest("Invalid task ID.");
         }
     }
 }
