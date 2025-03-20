@@ -1,5 +1,78 @@
 [
   {
+    "ContainingType": "MenuAPI.Controllers.CustomerProductController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/customer/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MenuAPI.Controllers.CustomerProductController",
+    "Method": "GetProduct",
+    "RelativePath": "api/customer/products/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MenuAPI.Controllers.CustomerProductController",
+    "Method": "GetProductsByCategory",
+    "RelativePath": "api/customer/products/category/{category}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MenuAPI.Controllers.CustomerProductController",
+    "Method": "SearchProducts",
+    "RelativePath": "api/customer/products/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MenuAPI.Controllers.CustomerProductController",
+    "Method": "GetVegetarianProducts",
+    "RelativePath": "api/customer/products/vegetarian",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MenuAPI.Controllers.OrderController",
     "Method": "GetOrder",
     "RelativePath": "api/Order/{orderId}",
@@ -209,6 +282,16 @@
     "ContainingType": "MenuAPI.Controllers.ProductController",
     "Method": "GetVegetarianProducts",
     "RelativePath": "api/Product/vegetarian",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MenuAPI.Controllers.StatisticsController",
+    "Method": "HealthCheck",
+    "RelativePath": "api/stats/health",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 
 
-namespace LoginService.Controllers
+namespace MenuAPI.Controllers
 
 {
 

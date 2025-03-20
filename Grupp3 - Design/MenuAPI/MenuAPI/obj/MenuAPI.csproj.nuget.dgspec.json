@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\meist\\Documents\\GitHub\\TestHotellVastervik\\MenuAPI\\MenuAPI\\MenuAPI.csproj": {}
+    "C:\\Users\\meist\\Desktop\\SOS100 Gruppprojekt\\Våra APIer\\MenuAPI\\MenuAPI\\MenuAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\meist\\Documents\\GitHub\\TestHotellVastervik\\MenuAPI\\MenuAPI\\MenuAPI.csproj": {
+    "C:\\Users\\meist\\Desktop\\SOS100 Gruppprojekt\\Våra APIer\\MenuAPI\\MenuAPI\\MenuAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\meist\\Documents\\GitHub\\TestHotellVastervik\\MenuAPI\\MenuAPI\\MenuAPI.csproj",
+        "projectUniqueName": "C:\\Users\\meist\\Desktop\\SOS100 Gruppprojekt\\Våra APIer\\MenuAPI\\MenuAPI\\MenuAPI.csproj",
         "projectName": "MenuAPI",
-        "projectPath": "C:\\Users\\meist\\Documents\\GitHub\\TestHotellVastervik\\MenuAPI\\MenuAPI\\MenuAPI.csproj",
+        "projectPath": "C:\\Users\\meist\\Desktop\\SOS100 Gruppprojekt\\Våra APIer\\MenuAPI\\MenuAPI\\MenuAPI.csproj",
         "packagesPath": "C:\\Users\\meist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\meist\\Documents\\GitHub\\TestHotellVastervik\\MenuAPI\\MenuAPI\\obj\\",
+        "outputPath": "C:\\Users\\meist\\Desktop\\SOS100 Gruppprojekt\\Våra APIer\\MenuAPI\\MenuAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

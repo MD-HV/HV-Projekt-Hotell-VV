@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\LoginService.csproj": {}
+    "C:\\Users\\meist\\Documents\\GitHub\\HV-Projekt-Hotell-VV\\Grupp2 - Databas\\LoginService\\LoginService\\LoginService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\LoginService.csproj": {
+    "C:\\Users\\meist\\Documents\\GitHub\\HV-Projekt-Hotell-VV\\Grupp2 - Databas\\LoginService\\LoginService\\LoginService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\LoginService.csproj",
+        "projectUniqueName": "C:\\Users\\meist\\Documents\\GitHub\\HV-Projekt-Hotell-VV\\Grupp2 - Databas\\LoginService\\LoginService\\LoginService.csproj",
         "projectName": "LoginService",
-        "projectPath": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\LoginService.csproj",
-        "packagesPath": "C:\\Users\\albin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\albin\\OneDrive\\Skrivbord\\LoginService\\LoginService\\obj\\",
+        "projectPath": "C:\\Users\\meist\\Documents\\GitHub\\HV-Projekt-Hotell-VV\\Grupp2 - Databas\\LoginService\\LoginService\\LoginService.csproj",
+        "packagesPath": "C:\\Users\\meist\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\meist\\Documents\\GitHub\\HV-Projekt-Hotell-VV\\Grupp2 - Databas\\LoginService\\LoginService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\albin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\meist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,8 +25,6 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

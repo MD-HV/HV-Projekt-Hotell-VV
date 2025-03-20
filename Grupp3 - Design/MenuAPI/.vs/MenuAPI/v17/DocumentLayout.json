@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\meist\\Documents\\GitHub\\TestHotellVastervik\\MenuAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\meist\\Desktop\\SOS100 Gruppprojekt\\V\u00E5ra APIer\\MenuAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\meist\\Documents\\GitHub\\TestHotellVastervik\\MenuAPI\\MenuAPI\\Migrations\\20250319151241_AddApiUsageLog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MenuAPI\\Migrations\\20250319151241_AddApiUsageLog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0136ADCF-F0E2-4CD5-933F-E011C513CC38}|MenuAPI\\MenuAPI.csproj|c:\\users\\meist\\desktop\\sos100 gruppprojekt\\v\u00E5ra apier\\menuapi\\menuapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0136ADCF-F0E2-4CD5-933F-E011C513CC38}|MenuAPI\\MenuAPI.csproj|solutionrelative:menuapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0136ADCF-F0E2-4CD5-933F-E011C513CC38}|MenuAPI\\MenuAPI.csproj|c:\\users\\meist\\documents\\github\\testhotellvastervik\\menuapi\\menuapi\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0136ADCF-F0E2-4CD5-933F-E011C513CC38}|MenuAPI\\MenuAPI.csproj|c:\\users\\meist\\desktop\\sos100 gruppprojekt\\v\u00E5ra apier\\menuapi\\menuapi\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0136ADCF-F0E2-4CD5-933F-E011C513CC38}|MenuAPI\\MenuAPI.csproj|solutionrelative:menuapi\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0136ADCF-F0E2-4CD5-933F-E011C513CC38}|MenuAPI\\MenuAPI.csproj|c:\\users\\meist\\desktop\\sos100 gruppprojekt\\v\u00E5ra apier\\menuapi\\menuapi\\migrations\\20250319151241_addapiusagelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0136ADCF-F0E2-4CD5-933F-E011C513CC38}|MenuAPI\\MenuAPI.csproj|solutionrelative:menuapi\\migrations\\20250319151241_addapiusagelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,28 +83,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\meist\\Desktop\\SOS100 Gruppprojekt\\V\u00E5ra APIer\\MenuAPI\\MenuAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "MenuAPI\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\meist\\Desktop\\SOS100 Gruppprojekt\\V\u00E5ra APIer\\MenuAPI\\MenuAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "MenuAPI\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:05:26.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "20250319151241_AddApiUsageLog.cs",
-              "DocumentMoniker": "C:\\Users\\meist\\Documents\\GitHub\\TestHotellVastervik\\MenuAPI\\MenuAPI\\Migrations\\20250319151241_AddApiUsageLog.cs",
+              "DocumentMoniker": "C:\\Users\\meist\\Desktop\\SOS100 Gruppprojekt\\V\u00E5ra APIer\\MenuAPI\\MenuAPI\\Migrations\\20250319151241_AddApiUsageLog.cs",
               "RelativeDocumentMoniker": "MenuAPI\\Migrations\\20250319151241_AddApiUsageLog.cs",
-              "ToolTip": "C:\\Users\\meist\\Documents\\GitHub\\TestHotellVastervik\\MenuAPI\\MenuAPI\\Migrations\\20250319151241_AddApiUsageLog.cs",
+              "ToolTip": "C:\\Users\\meist\\Desktop\\SOS100 Gruppprojekt\\V\u00E5ra APIer\\MenuAPI\\MenuAPI\\Migrations\\20250319151241_AddApiUsageLog.cs",
               "RelativeToolTip": "MenuAPI\\Migrations\\20250319151241_AddApiUsageLog.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:12:41.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T15:12:41.344Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "StatisticsController.cs",
-              "DocumentMoniker": "C:\\Users\\meist\\Documents\\GitHub\\TestHotellVastervik\\MenuAPI\\MenuAPI\\Controllers\\StatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\meist\\Desktop\\SOS100 Gruppprojekt\\V\u00E5ra APIer\\MenuAPI\\MenuAPI\\Controllers\\StatisticsController.cs",
               "RelativeDocumentMoniker": "MenuAPI\\Controllers\\StatisticsController.cs",
-              "ToolTip": "C:\\Users\\meist\\Documents\\GitHub\\TestHotellVastervik\\MenuAPI\\MenuAPI\\Controllers\\StatisticsController.cs",
+              "ToolTip": "C:\\Users\\meist\\Desktop\\SOS100 Gruppprojekt\\V\u00E5ra APIer\\MenuAPI\\MenuAPI\\Controllers\\StatisticsController.cs",
               "RelativeToolTip": "MenuAPI\\Controllers\\StatisticsController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T14:56:28.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T14:56:28.614Z"
             }
           ]
         }

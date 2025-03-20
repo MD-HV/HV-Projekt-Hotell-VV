@@ -5,6 +5,103 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/customer/products": {
+      "get": {
+        "tags": [
+          "CustomerProduct"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/customer/products/{productId}": {
+      "get": {
+        "tags": [
+          "CustomerProduct"
+        ],
+        "parameters": [
+          {
+            "name": "productId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/customer/products/search": {
+      "get": {
+        "tags": [
+          "CustomerProduct"
+        ],
+        "parameters": [
+          {
+            "name": "category",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/customer/products/category/{category}": {
+      "get": {
+        "tags": [
+          "CustomerProduct"
+        ],
+        "parameters": [
+          {
+            "name": "category",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/customer/products/vegetarian": {
+      "get": {
+        "tags": [
+          "CustomerProduct"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Order/create": {
       "post": {
         "tags": [
@@ -346,6 +443,18 @@
       }
     },
     "/api/stats/usage": {
+      "get": {
+        "tags": [
+          "Statistics"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/stats/health": {
       "get": {
         "tags": [
           "Statistics"
