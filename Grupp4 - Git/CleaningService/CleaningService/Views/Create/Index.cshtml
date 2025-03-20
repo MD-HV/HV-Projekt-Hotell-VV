@@ -1,7 +1,6 @@
 ﻿@model CleaningService.Models.CleaningAPI
 
-@if (Model != null)
-{
+
 
     <form asp-controller="Create" asp-action="Index" method="post" class="CreateForm">
         <label>ID</label><br />
@@ -29,4 +28,4 @@
         <a href="@Url.Action("Clean", "Home")" class="btn btn-secondary">Tillbaka</a>
 
     </form>
-}
+
