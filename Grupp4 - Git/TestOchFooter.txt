@@ -1,0 +1,29 @@
+MERRE!!!!
+
+
+FOOTER!
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Hotell Lyx</h3>
+                <p>Strandvägen 12<br>12345 Västervik</p>
+                <strong>Hitta hit</strong>
+            </div>
+
+            <div class="footer-contact">
+                <p><strong>Telefon:</strong> 0490-12345</p>
+                <p><strong>Epost:</strong> vastervik@hotmail.se</p>
+            </div>
+
+            Nyhetsbrev -->
+            <div class="footer-newsletter">
+                <h3>Anmäl dig till vårt nyhetsbrev</h3>
+                <form action="#" method="post">
+                    <input type="email" placeholder="E-postadress" required>
+                    <button type="submit">Skicka</button>
+                </form>
+            </div>
+        </div>
+    </footer>
