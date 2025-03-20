@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CleaningAPI.Controllers
 {
@@ -9,7 +10,6 @@ namespace CleaningAPI.Controllers
     {
         private readonly IHttpContextAccessor _contextAccessor;
         private readonly CleaningDbContext _context;
-
         private readonly ILogger<CleaningController> _logger;
 
         public CleaningController(ILogger<CleaningController> logger, CleaningDbContext context)
@@ -19,11 +19,11 @@ namespace CleaningAPI.Controllers
         }
 
         [HttpGet(Name = "Cleaning")]
-        public IEnumerable<CleaningTask> Get()
+        public async Task<IEnumerable<CleaningTask>> Get()
         {
             var Tasks = await _context.CleaningTasks.ToListAsync();
 
-            return Tasks.ToList();
+            return [.. Tasks];
         }
         [HttpPost]
         [Route("AddTask")]
@@ -31,7 +31,7 @@ namespace CleaningAPI.Controllers
         {
             if(Tasks == null)
             {
-                 return BadResponse("Error Task is Empty or Missing!");
+                 return BadRequest("Error Task is Empty or Missing!");
             }
             try{
                 _context.CleaningTasks.Add(Tasks);
@@ -39,7 +39,7 @@ namespace CleaningAPI.Controllers
 
                 return Ok("Task created");
             }catch(Exception ex){
-            return StatusCode(500, "An Error occured!");
+            return StatusCode(500, "An Error: "+ ex +" occured!");
             }
         }
 
@@ -53,7 +53,7 @@ namespace CleaningAPI.Controllers
                 await _context.SaveChangesAsync();
                 return Ok("Task updated.");
                 }catch(Exception ex){
-                return StatusCode(500, "An Error occured!");
+                return StatusCode(500, "An Error: "+ex+" occured!");
                 }
             }
             else
@@ -83,7 +83,7 @@ namespace CleaningAPI.Controllers
                 catch (Exception ex)
                 {
                     // Optionally log ex here
-                    return StatusCode(500, "An Error occurred!");
+                    return StatusCode(500, "An Error: "+ex+" occurred!");
                 }
             }
         
