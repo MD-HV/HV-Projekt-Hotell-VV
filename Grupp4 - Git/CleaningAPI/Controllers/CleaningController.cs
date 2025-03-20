@@ -29,7 +29,10 @@ namespace CleaningAPI.Controllers
         [Route("AddTask")]
         public async Task<IActionResult> AddTask(CleaningTask Tasks)
         {
-            if(Tasks == null){ return BadResponse("Error Task is Empty or Missing!");}
+            if(Tasks == null)
+            {
+                 return BadResponse("Error Task is Empty or Missing!");
+            }
             try{
                 _context.CleaningTasks.Add(Tasks);
                 await _context.SaveChangesAsync();
