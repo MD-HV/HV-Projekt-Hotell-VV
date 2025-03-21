@@ -2,18 +2,18 @@
 
 
 
-    <form asp-controller="Create" asp-action="Index" method="post" class="CreateForm">
+    <form asp-action="SubmitForm" asp-controller="Create" class="CreateForm">
         <label>ID</label><br />
-        <input asp-for="Id" type="number" requered /><br />
+        <input type="number" asp-for="Id" requered /><br />
 
         <label>RumID</label><br />
-        <input asp-for="RoomId" type="number" required /><br />
+        <input type="number" asp-for="RoomId" required /><br />
 
         <label>PersonalID:</label><br />
-        <input asp-for="StaffId" type="number" required /><br />
+        <input type="number" asp-for="StaffId" required /><br />
 
         <label>Kommentar:</label><br />
-        <input asp-for="ReportedDamages" type="text" /><br />
+        <input type="text" asp-for="ReportedDamages" /><br />
 
 
         <label>Städstatus:</label>
@@ -23,9 +23,8 @@
         </select>
         <br><br>
 
-        <input type="submit" class="btn btn-success" value="Spara" /><br />
+    <button class="btn btn-success" type="submit" >Spara</button><br />
 
         <a href="@Url.Action("Clean", "Home")" class="btn btn-secondary">Tillbaka</a>
 
     </form>
-

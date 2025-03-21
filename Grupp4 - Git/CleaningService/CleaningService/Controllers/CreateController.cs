@@ -54,5 +54,25 @@ namespace CleaningService.Controllers
             */
 
         }
+
+        public async Task<IActionResult> SubmitForm(CleaningTask task)
+        {
+            using (var httpClient = new HttpClient())
+            {
+                var jsonContent = new StringContent(JsonConvert.SerializeObject(task), Encoding.UTF8, "application/json");
+                var response = await httpClient.PostAsync("https://informatik3.ei.hv.se/CleaningAPI/api/Cleaning/AddTask", jsonContent);
+
+                if (response.IsSuccessStatusCode) 
+                { 
+                    var result = await response.Content.ReadAsStringAsync();
+                    return RedirectToAction("Clean", "Home");
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+                
+            }
+        }
     }
 }
