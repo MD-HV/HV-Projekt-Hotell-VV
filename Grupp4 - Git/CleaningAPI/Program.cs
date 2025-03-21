@@ -44,7 +44,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseMiddleware<ApiLoggingMiddleware>();
+//app.UseMiddleware<ApiLoggingMiddleware>();
 
 app.UseSession();
 

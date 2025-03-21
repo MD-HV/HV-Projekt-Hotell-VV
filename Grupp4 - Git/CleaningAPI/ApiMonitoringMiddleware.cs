@@ -13,7 +13,7 @@ using System;
 public class ApiLoggingMiddleware
 
 {
-
+    /*
     private readonly RequestDelegate _next;
 
 
@@ -26,7 +26,7 @@ public class ApiLoggingMiddleware
 
     }
 
-
+    
 
     public async Task Invoke(HttpContext context, CleaningDbContext dbContext)
 
@@ -59,5 +59,5 @@ public class ApiLoggingMiddleware
         await _next(context); //fortsätter till nästa steg i pipeline:n 
 
     }
-
+    */
 }

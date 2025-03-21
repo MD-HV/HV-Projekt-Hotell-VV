@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using CleaningAPI.Models;
 
 namespace CleaningAPI.Controllers
 {
@@ -27,19 +29,24 @@ namespace CleaningAPI.Controllers
         }
         [HttpPost]
         [Route("AddTask")]
-        public async Task<IActionResult> AddTask(CleaningTask Tasks)
+        public async Task<IActionResult> AddTask(CleaningTask task)
         {
-            if(Tasks == null)
+            if(task == null)
             {
                  return BadRequest("Error Task is Empty or Missing!");
             }
-            try{
-                _context.CleaningTasks.Add(Tasks);
-                await _context.SaveChangesAsync();
-
-                return Ok("Task created");
-            }catch(Exception ex){
-            return StatusCode(500, "An Error: "+ ex +" occured!");
+            try {
+               _context.CleaningTasks.Add(task);
+               await _context.SaveChangesAsync();
+               return Ok("Task created");
+            }
+            catch (DbUpdateException dbEx)
+            {
+                // Log exception (e.g., using a logging framework)
+                return StatusCode(500, "Database update error occurred.");
+            }
+            catch (Exception ex) {
+                return StatusCode(500, "An Unexpected Error occured!");
             }
         }
 
@@ -53,7 +60,7 @@ namespace CleaningAPI.Controllers
                 await _context.SaveChangesAsync();
                 return Ok("Task updated.");
                 }catch(Exception ex){
-                return StatusCode(500, "An Error: "+ex+" occured!");
+                return StatusCode(500, "An Unexpected Error occured!");
                 }
             }
             else
@@ -83,7 +90,7 @@ namespace CleaningAPI.Controllers
                 catch (Exception ex)
                 {
                     // Optionally log ex here
-                    return StatusCode(500, "An Error: "+ex+" occurred!");
+                    return StatusCode(500, "An Unexpected Error occured!");
                 }
             }
         
